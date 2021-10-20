@@ -9,18 +9,11 @@ const Guild = require('../model/guild');
 
 const JAVASCRIPT_LOGO_URL = 'https://i.discord.fr/IEV8.png';
 
-class Eval
-{
-    constructor() {
-        this.aliases = [];
-        this.category = CommandCategory.BOT_MANAGEMENT;
-        this.isAllowedForContext = CommandPermission.isMommy;
-    }
-
-    /**
-     * @param {Message} message
-     */
-    async process(message) {
+module.exports = {
+    aliases: [],
+    category: CommandCategory.BOT_MANAGEMENT,
+    isAllowedForContext: CommandPermission.isMommy,
+    process: async (message) => {
         const code = message.content
             .substr(Config.prefix.length + 'eval'.length)
             .trim()
@@ -44,6 +37,4 @@ class Eval
 
         message.channel.send(embed).catch(error => Logger.warning(error.toString()));
     }
-}
-
-module.exports = new Eval();
+};

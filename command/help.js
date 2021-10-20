@@ -81,21 +81,12 @@ const categoryPage = (cat, id, direct = false) => {
     return data;
 }
 
-class Help
-{
-    constructor() {
-        this.aliases = ['commands'];
-        this.category = CommandCategory.INFO;
-        this.isAllowedForContext = CommandPermission.yes;
-        this.description = 'Provides the list of commands';
-    }
-
-    /**
-     * @param {Message} message
-     * @param {Array} args
-     * @param {Command} Command
-     */
-    async process(message, args, command) {
+module.exports = {
+    aliases: ["commands"],
+    category: CommandCategory.INFO,
+    isAllowedForContext: () => true,
+    description: 'Provides the list of commands.',
+    process: async (message, args) => {
         if (!args[0])
             await bot.api.channels(message.channel.id).messages.post({ data: mainPage(message.author.id) });
         else
@@ -110,8 +101,6 @@ class Help
             })
     }
 }
-
-module.exports = new Help();
 
 module.exports.interactionHandler = async (event) => {
     const user = event.member ? event.member.user.id : event.user.id;

@@ -31,14 +31,6 @@ const CommandPermission = {
 
         return await CommandPermission.isMemberMod(message) || await Guild.isMemberHelper(member);
     },
-
-    /**
-     * @param {Message} message
-     * @returns {Promise.<boolean>}
-     */
-    yes: async (message) => {
-        return true;
-    }
 };
 
 module.exports = CommandPermission;

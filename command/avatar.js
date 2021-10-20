@@ -1,23 +1,14 @@
 const Logger = require('@lilywonhalf/pretty-logger');
 const Discord = require('discord.js');
 const CommandCategory = require('../model/command-category');
-const CommandPermission = require('../model/command-permission');
 const Guild = require('../model/guild');
 
-class Avatar
-{
-    constructor() {
-        this.aliases = ['av'];
-        this.category = CommandCategory.FUN;
-        this.isAllowedForContext = CommandPermission.yes;
-        this.description = 'Displays the avatar of the specified member.';
-    }
-
-    /**
-     * @param {Message} message
-     * @param {Array} args
-     */
-    async process(message, args) {
+module.exports = {
+    aliases: ['av'],
+    category: CommandCategory.FUN,
+    isAllowedForContext: () => true,
+    description: 'Displays the avatar of the specified member.',
+    process: async (message, args) => {
         let user = null;
 
         if (args.length > 0) {
@@ -46,5 +37,3 @@ class Avatar
         }
     }
 }
-
-module.exports = new Avatar();

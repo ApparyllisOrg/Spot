@@ -6,20 +6,13 @@ const { search } = require('../model/jira');
 
 const MAX_CHARACTERS = 1950;
 
-class Changelog
-{
-    constructor() {
-        this.aliases = ['change-log', 'cl'];
-        this.category = CommandCategory.MODERATION;
-        this.isAllowedForContext = CommandPermission.isMemberMod;
-        this.description = 'Builds the changelog for a given version';
-    }
+module.exports = {
+    aliases:  ['change-log', 'cl'],
+    category: CommandCategory.MODERATION,
+    isAllowedForContext: CommandPermission.isMemberMod,
+    description: 'Builds the changelog for a given version',
+    process: async (message, args) => {
 
-    /**
-     * @param {Message} message
-     * @param {Array} args
-     */
-    async process(message, args) {
         const errorHandler = async (error) => {
             if (error) {
                 Logger.exception(error);
@@ -71,5 +64,3 @@ class Changelog
         await message.react('✔').catch(() => {});
     }
 }
-
-module.exports = new Changelog();
