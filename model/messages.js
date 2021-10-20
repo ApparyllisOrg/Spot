@@ -21,8 +21,6 @@ load();
 //     text string;
 // }
 
-const { MessageEmbed } = require("discord.js");
-
 module.exports = {
     get names() {
         return names;
@@ -37,7 +35,7 @@ module.exports = {
         if (!msg) return;
 
         return {
-            color: APP_MAIN_COLOUR,
+            color: "A95B44",
             author: {
                 name: msg.title,
                 iconURL: bot.user.displayAvatarURL({ dynamic: true }),
