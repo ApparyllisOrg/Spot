@@ -39,4 +39,4 @@ bot.on('ready', () => {
 Logger.info('--------');
 
 Logger.info('Logging in...');
-bot.login(Config.token);
+bot.login(process.env.token);
