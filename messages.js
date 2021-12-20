@@ -54,9 +54,10 @@ module.exports = [
         description: 'Talks about the "custom fields" feature.',
         title: "Custom fields",
         text:
-            'The ability to change the fields shown on your member lists is planned. This feature will also bring ' +
-            'the ability to remove and add fields, as well as make fields private, public, or show them to only ' +
-            'trusted friends.'
+            'Custom fields are customizable fields for members such as; Birthday, favorite food, system role, etc... ' +
+            'You can set them up in settings -> Custom fields. Every field has its own privacy, so you can set some fields ' +
+            'to be seen by all your friends, only your trusted friends or only your own system. There is no limit to ' +
+            'how many custom fields you can have. '
     },
     {
         names: [
