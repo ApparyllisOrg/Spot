@@ -124,11 +124,15 @@ module.exports = [
         description: 'Explains how your friends can get notifications from your system.',
         title: "Notifications",
         text:
-            'If your friends are not getting notifications, make sure that you go into the settings of the friend ' +
-            'by going on their profile and clicking the cog wheel on the right top. Press "They can get ' +
-            'notifications". As a second step your friend(s) have to opt-in to get notifications from you, they ' +
-            'have to go to your profile in their friends and click "Get notifications if they change front".'
-    },
+            'If you are having trouble receiving front notifications, or your friends have trouble receiving front notifications; please check the following:\n\n' +
+            'n- You have front notifications enabled for the friend\n- The friend has opted-in into your front notifications' +
+            '\n- The friend has enabled notifications for the app in the OS settings (Android, iOS)\n- Your members don\'t prevent front notifications,' +
+            ' go into the settings of your members that front and make sure \"Prevent front notifications\" is turned off.' +
+            '\n- If they are a trusted friend, make sure that your members that are changing front are visible to trusted friends.\n- If they are a regular friend, make sure that the members that are changing front are visible to all friends.\n' +
+            '\nIf all of the above checks out; Do the following; The person who can\'t receive notifications, create a repeated reminder 3 minutes from now. Then wait a few minutes until the notification should arrive.' +
+            'If the notification arrives, then your account has been setup to properly receive notifications and go over the list again to make sure everything checks out.' +
+            '\nIf you do not get an automated reminder notification after a few minutes, then please ask for a helper or a moderator to help you with making a ticket so that the developers can look into your specific issue.'
+     },
     {
         names: [
             "see-members",
