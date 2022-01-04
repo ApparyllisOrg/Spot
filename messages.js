@@ -46,6 +46,18 @@ module.exports = [
     },
     {
         names: [
+            "avatar",
+            "avatars"
+        ],
+        description: 'Explains why avatars uploaded to Simply Plural does not sync to PluralKit',
+        title: "Uploaded Avatars",
+        "text":
+            'Uploaded avatars on Simply Plural do not sync to PluralKit. This is because we have to pay for the hosting of ' +
+            'the avatars and the bandwidth associated with it. Allowing usage outside the app would be too costly for us. ' +
+            'If you want avatars synced between PluralKit and Simply Plural, make sure that you use avatar urls intead.'
+    },
+    {
+        names: [
             "custom-fields",
             "customfields",
             "customfield",
@@ -125,12 +137,12 @@ module.exports = [
         title: "Notifications",
         text:
             'If you are having trouble receiving front notifications, or your friends have trouble receiving front notifications; please check the following:\n\n' +
-            'n- You have front notifications enabled for the friend\n- The friend has opted-in into your front notifications' +
+            '- You have front notifications enabled for the friend\n- The friend has opted-in into your front notifications' +
             '\n- The friend has enabled notifications for the app in the OS settings (Android, iOS)\n- Your members don\'t prevent front notifications,' +
             ' go into the settings of your members that front and make sure \"Prevent front notifications\" is turned off.' +
             '\n- If they are a trusted friend, make sure that your members that are changing front are visible to trusted friends.\n- If they are a regular friend, make sure that the members that are changing front are visible to all friends.\n' +
             '\nIf all of the above checks out; Do the following; The person who can\'t receive notifications, create a repeated reminder 3 minutes from now. Then wait a few minutes until the notification should arrive.' +
-            'If the notification arrives, then your account has been setup to properly receive notifications and go over the list again to make sure everything checks out.' +
+            ' If the notification arrives, then your account has been setup to properly receive notifications and go over the list again to make sure everything checks out.' +
             '\nIf you do not get an automated reminder notification after a few minutes, then please ask for a helper or a moderator to help you with making a ticket so that the developers can look into your specific issue.'
      },
     {
