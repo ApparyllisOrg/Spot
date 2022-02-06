@@ -19,11 +19,11 @@ class Jira
         }
 
         const issues = [];
-        const httpParams = Object.keys(params).map(key => `${key}=${params[key]}`).join('&');
-        const url = `${Config.jira.baseUrl}${ENDPOINTS.search}?${httpParams}`;
         let response = null;
 
         do {
+            const httpParams = Object.keys(params).map(key => `${key}=${params[key]}`).join('&');
+            const url = `${Config.jira.baseUrl}${ENDPOINTS.search}?${httpParams}`;
             response = await axios(url);
 
             issues.push(...response.data.issues);
