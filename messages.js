@@ -229,5 +229,13 @@ module.exports = [
             'has been created with has the capability of web development, but it is currently experimental, which ' +
             'would make it buggy and unstable to use. This decision may change later in the year when the framework ' +
             'becomes more stable and once the app is more complete.'
+    },
+    {
+        names: ["moreavatars", "moreavatar", "more-avatars"],
+        title: "Avatars",
+        description: "Talks about why more avatar functionality won't be added",
+        text: "Adding more uploading avatar functionality is not something that's possible for us, we're funded by Patreon and a non-profit, " + 
+              "alongside self-funding. Storing and uploading avatars comes with a cost that would expand exponentially if we were to add it to " +
+              "more features."
     }
 ]
