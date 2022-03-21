@@ -239,7 +239,7 @@ module.exports = [
               "more features."
     },
     {
-        names: ["token", "tokens", ""],
+        names: ["token", "tokens"],
         title: "Tokens",
         description: "Talks about what Simply Plural Tokens are",
         text: "Simply Plural Tokens are to enable Third-party integrations development for developers. Right now, there are no Third-party integrations yet " + 
