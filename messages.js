@@ -237,5 +237,13 @@ module.exports = [
         text: "Adding more uploading avatar functionality is not something that's possible for us, we're funded by Patreon and a non-profit, " + 
               "alongside self-funding. Storing and uploading avatars comes with a cost that would expand exponentially if we were to add it to " +
               "more features."
+    },
+    {
+        names: ["token", "tokens", ""],
+        title: "Tokens",
+        description: "Talks about what Simply Plural Tokens are",
+        text: "Simply Plural Tokens are to enable Third-party integrations development for developers. Right now, there are no Third-party integrations yet " + 
+              "and Tokens are only useful for developers. Later down the road, when Third-party integrations are made, you can generate tokens in Simply Plural " +
+              "to use those integrations."
     }
 ]
