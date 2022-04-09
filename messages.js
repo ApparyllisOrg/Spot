@@ -139,9 +139,9 @@ module.exports = [
             '\n- The friend has enabled notifications for the app in the OS settings (Android, iOS)\n- Your members don\'t prevent front notifications,' +
             ' go into the settings of your members that front and make sure \"Prevent front notifications\" is turned off.' +
             '\n- If they are a trusted friend, make sure that your members that are changing front are visible to trusted friends.\n- If they are a regular friend, make sure that the members that are changing front are visible to all friends.\n' +
-            '\nIf all of the above checks out; do the following: \n- The person who can\'t receive notifications, create a repeated reminder 3 minutes from now. Then, wait a few minutes until the notification should arrive.' +
-            ' If the notification arrives, then your account has been setup to properly receive notifications and go over the list again to make sure everything checks out.' +
-            '\nIf you do not get an automated reminder notification after a few minutes, then please ask for a helper or a moderator to help you with making a ticket so that the developers can look into your specific issue.'
+            '\nIf all of the above checks out, do the following: The person who can\'t receive notifications, create a repeated reminder 3 minutes from now. Then, wait a few minutes until the notification should arrive.' +
+            ' If the notification arrives, then your account has been set up to properly receive notifications and go over the list again to make sure everything checks out.' +
+            '\nIf you do not get an automated reminder notification after a few minutes, then email the developers at hello@apparyllis.com so that they can look into your specific issue. '
      },
     {
         names: [
