@@ -53,7 +53,7 @@ module.exports = [
         "text":
             'Uploaded avatars on Simply Plural do not sync to PluralKit. This is because we have to pay for the hosting of ' +
             'the avatars and the bandwidth associated with it. Allowing usage outside the app would be too costly for us. ' +
-            'If you want avatars synced between PluralKit and Simply Plural, make sure that you use avatar URLs intead.'
+            'If you want avatars synced between PluralKit and Simply Plural, make sure that you use avatar URLs instead.'
     },
     {
         names: [
