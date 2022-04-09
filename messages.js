@@ -53,7 +53,7 @@ module.exports = [
         "text":
             'Uploaded avatars on Simply Plural do not sync to PluralKit. This is because we have to pay for the hosting of ' +
             'the avatars and the bandwidth associated with it. Allowing usage outside the app would be too costly for us. ' +
-            'If you want avatars synced between PluralKit and Simply Plural, make sure that you use avatar urls intead.'
+            'If you want avatars synced between PluralKit and Simply Plural, make sure that you use avatar URLs intead.'
     },
     {
         names: [
@@ -86,7 +86,7 @@ module.exports = [
             'You don\'t want those to show up as real members in your system list but you still want to be able to ' +
             'set front as one of them — that\'s where custom fronts kick in.\n' +
             '\n' +
-            'They\'re highly customizable (as per popular request) so you can name them anything you want.'
+            'They\'re highly customizable (as per popular request), so you can name them anything you want.'
     },
     {
         names: [
@@ -118,7 +118,7 @@ module.exports = [
         description: 'Talks about the possibility of having a messaging feature.',
         title: "Messaging",
         text: 
-            'The feature of messaging other systems within the app is out of scope, the app is not meant to be a ' +
+            'The feature of messaging other systems within the app is out of scope, as the app is not meant to be a ' +
             'social community app, but a tool for you and your friends. Adding messages between systems would need ' +
             'us to implement moderation tools, moderation team and the actual feature, which is not the direction ' +
             'we are taking the app in right now.\n' +
@@ -155,7 +155,8 @@ module.exports = [
         text:
             'If your friends cannot see your members, you have to go into the friend their profile, click on the ' +
             'cogwheel on the right top and press "They can see your shared members", this will allow them to see ' +
-            'your public members.'
+            'your public members or your members marked as "Shown to Trusted Friends", if they marked as a "Trusted' +
+             'friend".'
     },
     {
         names: [
