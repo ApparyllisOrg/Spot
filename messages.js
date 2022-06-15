@@ -245,5 +245,13 @@ module.exports = [
         text: "Simply Plural Tokens are to enable Third-party integrations development for developers. Right now, there are no Third-party integrations yet " + 
               "and Tokens are only useful for developers. Later down the road, when Third-party integrations are made, you can generate tokens in Simply Plural " +
               "to use those integrations."
+    },
+    {
+        names: ["logs", "log"],
+        title: "Logs",
+        description: "Talks about how to provide logs to the developers",
+        text: "You've been requested to provide logs to the developers in response to the replied message.\nPlease send the logs to the developers by" +
+        " going to Settings -> App Options and scroll to the bottom and click \"Share logs\", then select Discord or email. Send it to Amaryllis on Discord, or " +
+        "hello@apparyllis.com on email. Then we can look into what's happening!"
     }
 ]
