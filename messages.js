@@ -224,11 +224,11 @@ module.exports = [
         title: "Website",
         description: 'Talks about the possibility of having a web portal for Simply Plural.',
         text: 
-        'There is a web version of the app at https://app.apparyllis.com/ . ' +
-        'Please note there are some minor differences from the app version (such as uploading avatars, etc). \n ' +
+            'There is a web version of the app at https://app.apparyllis.com/ . ' +
+            'Please note there are some minor differences from the app version (such as uploading avatars, etc). \n ' +
          
-        'As a reminder, your PluralKit token won\'t transfer to the website automatically, so you\'ll need to re-add ' + 
-        'it to “Integrations” to be able for importing from PluralKit, syncing to PluralKit and exporting to PluralKit.'
+            'As a reminder, your PluralKit token won\'t transfer to the website automatically, so you\'ll need to re-add ' + 
+            'it to “Integrations” to be able for importing from PluralKit, syncing to PluralKit and exporting to PluralKit.'
         
     },
     {
