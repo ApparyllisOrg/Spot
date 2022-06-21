@@ -92,7 +92,7 @@ class EmbedDialog
             }
         }
 
-        await this.prompt('🎨 What do you want the **colour** of this embed to be?');
+        await this.prompt('🎨 What do you want the **color** of this embed to be?');
         const colourMessage = await this.awaitMessage(this.messageFilter);
 
         if (!colourMessage) {
