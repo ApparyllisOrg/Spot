@@ -232,12 +232,15 @@ module.exports = [
         
     },
     {
-        names: ["moreavatars", "moreavatar", "more-avatars"],
+        names: ["moreavatars", "moreavatar", "more-avatars", "moreimages", "more-images"],
         title: "Avatars",
         description: "Talks about why more avatar functionality won't be added",
         text: "Adding more uploading avatar functionality is not something that's possible for us, we're funded by Patreon and a non-profit, " + 
               "alongside self-funding. Storing and uploading avatars comes with a cost that would expand exponentially if we were to add it to " +
               "more features."
+
+              "However, you can add images to any text box that supports Markdown by using "![text](link)" and adding an image link 
+              "inside of "(link)"."
     },
     {
         names: ["token", "tokens"],
@@ -252,7 +255,7 @@ module.exports = [
         title: "Logs",
         description: "Talks about how to provide logs to the developers",
         text: "You've been requested to provide logs to the developers in response to the replied message.\nPlease send the logs to the developers by" +
-        " going to Settings -> App Options and scroll to the bottom and click \"Share logs\", then select Discord or email. Send it to Amaryllis on Discord, or " +
-        "hello@apparyllis.com on email. Then we can look into what's happening!"
+        " going to Settings -> Options and scroll to the bottom and click \"Share logs\", then select Discord or email. Send them to Amaryllis on Discord or " +
+        "email hello@apparyllis.com. Then, we can look into what's happening!"
     }
 ]
