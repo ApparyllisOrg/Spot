@@ -153,10 +153,10 @@ module.exports = [
         description: 'Explains how to allow your friends to see your members.',
         title: "See members",
         text:
-            'If your friends cannot see your members, you have to go into the friend their profile, click on the ' +
-            'cogwheel on the right top and press "They can see your shared members", this will allow them to see ' +
-            'your public members or your members marked as "Shown to Trusted Friends", if they marked as a "Trusted' +
-             'friend".'
+            'If your friends cannot see your members, you have to go into the friend\'s profile, click on the ' +
+            'cogwheel on the top right and press "They can see your shared members", this will allow them to see ' +
+            'your public members or your members marked as "Shown to Trusted Friends", if they are marked as a ' + 
+            '"Trusted friend".'
     },
     {
         names: [
