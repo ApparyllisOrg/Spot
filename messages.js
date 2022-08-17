@@ -228,34 +228,34 @@ module.exports = [
             'Please note there are some minor differences from the app version (such as uploading avatars, etc). \n ' +
          
             'As a reminder, your PluralKit token won\'t transfer to the website automatically, so you\'ll need to re-add ' + 
-            'it to “Integrations” to be able for importing from PluralKit, syncing to PluralKit and exporting to PluralKit.'
+            'it to "Integrations" to be able for importing from PluralKit, syncing to PluralKit and exporting to PluralKit.'
         
     },
     {
         names: ["moreavatars", "moreavatar", "more-avatars", "moreimages", "more-images"],
         title: "Avatars",
         description: "Talks about why more avatar functionality won't be added",
-        text: "Adding more uploading avatar functionality is not something that's possible for us, we're funded by Patreon and a non-profit, " + 
-              "alongside self-funding. Storing and uploading avatars comes with a cost that would expand exponentially if we were to add it to " +
-              "more features."
+        text: 'Adding more uploading avatar functionality is not something that\'s possible for us, we\'re funded by Patreon and a non-profit, ' + 
+              'alongside self-funding. Storing and uploading avatars comes with a cost that would expand exponentially if we were to add it to ' +
+              'more features.'
 
-              "However, you can add images to any text box that supports Markdown by using "![text](link)" and adding an image link 
-              "inside of "(link)"."
+              'However, you can add images to any text box that supports Markdown by using "![text](link)" and adding an image link ' +
+              'inside of "(link)".'
     },
     {
         names: ["token", "tokens"],
         title: "Tokens",
         description: "Talks about what Simply Plural Tokens are",
-        text: "Simply Plural Tokens are to enable third-party integrations development for developers. Right now, there are no third-party integrations yet " + 
-              "and Tokens are only useful for developers. Later down the road, when third-party integrations are made, you can generate tokens in Simply Plural " +
+        text: "Simply Plural Tokens are to enable third-party integrations development for developers. Right now, there are no third-party integrations yet ' + 
+              "and Tokens are only useful for developers. Later down the road, when third-party integrations are made, you can generate tokens in Simply Plural ' +
               "to use those integrations."
     },
     {
         names: ["logs", "log"],
         title: "Logs",
         description: "Talks about how to provide logs to the developers",
-        text: "You've been requested to provide logs to the developers in response to the replied message.\nPlease send the logs to the developers by" +
-        " going to Settings -> Options and scroll to the bottom and click \"Share logs\", then select Discord or email. Send them to Amaryllis on Discord or " +
-        "email hello@apparyllis.com. Then, we can look into what's happening!"
+        text: "You\'ve been requested to provide logs to the developers in response to the replied message.\nPlease send the logs to the developers by ' +
+        " going to Settings -> Options and scroll to the bottom and click \"Share logs\", then select Discord or email. Send them to Amaryllis on Discord or ' +
+        "email hello@apparyllis.com. Then, we can look into what\'s happening!"
     }
 ]
