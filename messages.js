@@ -8,11 +8,11 @@
 module.exports = [
     {
         names: [
-            "add-friend",
-            "add-friends",
-            "addfriend",
-            "addfriends",
-            "af",
+            'add-friend',
+            'add-friends',
+            'addfriend',
+            'addfriends',
+            'af',
         ],
         description: 'Explains how to troubleshoot not being able to add a friend.',
         title: "Add friend",
@@ -23,7 +23,7 @@ module.exports = [
     },
     {
         names: [
-            "add-set-front",
+            'add-set-front',
             'addsetfront',
             'addset-front',
             'add-setfront',
@@ -48,10 +48,10 @@ module.exports = [
     },
     {
         names: [
-            "avatar",
-            "avatars",
-            "images",
-            "image",
+            'avatar',
+            'avatars',
+            'images',
+            'image',
         ],
         description: 'Explains why avatars uploaded to Simply Plural does not sync to PluralKit',
         title: "Uploaded Avatars",
@@ -62,11 +62,11 @@ module.exports = [
     },
     {
         names: [
-            "custom-fields",
-            "customfields",
-            "custom-field",
-            "customfield",
-            "cfi",
+            'custom-fields',
+            'customfields',
+            'custom-field',
+            'customfield',
+            'cfi',
         ],
         description: 'Talks about the "custom fields" feature.',
         title: "Custom fields",
@@ -78,11 +78,11 @@ module.exports = [
     },
     {
         names: [
-            "custom-front",
-            "custom-fronts",
-            "customfront",
-            "customfronts",
-            "cf",
+            'custom-front',
+            'custom-fronts',
+            'customfront',
+            'customfronts',
+            'cf',
         ],
         description: 'Explains what "custom front" is.',
         title: "Custom fronts",
@@ -96,7 +96,7 @@ module.exports = [
     },
     {
         names: [
-            "front-history-importing",
+            'front-history-importing',
             'fronthistoryimporting',
             'fronthistory-importing',
             'front-historyimporting',
@@ -119,7 +119,7 @@ module.exports = [
     },
     {
         names: [
-            "messaging",
+            'messaging',
         ],
         description: 'Talks about the possibility of having a messaging feature.',
         title: "Messaging",
@@ -134,8 +134,8 @@ module.exports = [
     },
     {
         names: [
-            "notifications",
-            "notification",
+            'notifications',
+            'notification',
         ],
         description: 'Explains how your friends can get notifications from your system.',
         title: "Notifications",
@@ -151,11 +151,11 @@ module.exports = [
      },
     {
         names: [
-            "see-members",
-            "seemembers",
-            "seemember",
-            "see-member",
-            "sm",
+            'see-members',
+            'seemembers',
+            'seemember',
+            'see-member',
+            'sm',
         ],
         description: 'Explains how to allow your friends to see your members.',
         title: "See members",
@@ -211,11 +211,11 @@ module.exports = [
     },
     {
         names: [
-            "system-relationships",
-            "system-relationship",
-            "systemrelationships",
-            "systemrelationship",
-            "sr",
+            'system-relationships',
+            'system-relationship',
+            'systemrelationships',
+            'systemrelationship',
+            'sr',
         ],
         description: 'Explains what "system relationships" are.',
         title: "System relationships",
@@ -227,7 +227,7 @@ module.exports = [
     },
     {
         names: [
-            "website",
+            'website',
         ],
         title: "Website",
         description: 'Talks about the possibility of having a web portal for Simply Plural.',
@@ -240,7 +240,13 @@ module.exports = [
         
     },
     {
-        names: ["moreavatars", "moreavatar", "more-avatars", "moreimages", "more-images"],
+        names: [
+            'moreavatars',
+            'moreavatar',
+            'more-avatars',
+            'moreimages',
+            'more-images',
+        ],
         title: "Avatars",
         description: "Talks about why more avatar functionality won't be added",
         text: 'Adding more uploading avatar functionality is not something that\'s possible for us, we\'re funded by Patreon and a non-profit, ' + 
@@ -251,7 +257,10 @@ module.exports = [
               'inside of "(link)". '
     },
     {
-        names: ["token", "tokens"],
+        names: [
+            'token',
+            'tokens',
+        ],
         title: "Tokens",
         description: "Talks about what Simply Plural Tokens are",
         text: 'Simply Plural Tokens are to enable third-party integrations development for developers. Right now, there are no third-party integrations yet ' + 
@@ -259,7 +268,10 @@ module.exports = [
               'to use those integrations. '
     },
     {
-        names: ["logs", "log"],
+        names: [
+            'logs',
+            'log',
+        ],
         title: "Logs",
         description: "Talks about how to provide logs to the developers",
         text: 'You\'ve been requested to provide logs to the developers in response to the replied message.\nPlease send the logs to the developers by ' +
