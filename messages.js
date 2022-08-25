@@ -11,6 +11,7 @@ module.exports = [
             "add-friend",
             "add-friends",
             "addfriend",
+            "addfriends",
             "af",
         ],
         description: 'Explains how to troubleshoot not being able to add a friend.',
@@ -30,8 +31,10 @@ module.exports = [
             'addset',
             'add-front',
             'addfront',
+            'addtofront',
             'set-front',
             'setfront',
+            'settofront',
             'asf',
         ],
         description: 'Talks about how to set who is fronting in the application.',
@@ -46,7 +49,9 @@ module.exports = [
     {
         names: [
             "avatar",
-            "avatars"
+            "avatars",
+            "images",
+            "image",
         ],
         description: 'Explains why avatars uploaded to Simply Plural does not sync to PluralKit',
         title: "Uploaded Avatars",
@@ -59,6 +64,7 @@ module.exports = [
         names: [
             "custom-fields",
             "customfields",
+            "custom-field",
             "customfield",
             "cfi",
         ],
@@ -147,7 +153,8 @@ module.exports = [
         names: [
             "see-members",
             "seemembers",
-            "seembmer",
+            "seemember",
+            "see-member",
             "sm",
         ],
         description: 'Explains how to allow your friends to see your members.',
@@ -207,6 +214,7 @@ module.exports = [
             "system-relationships",
             "system-relationship",
             "systemrelationships",
+            "systemrelationship",
             "sr",
         ],
         description: 'Explains what "system relationships" are.',
