@@ -40,7 +40,7 @@ module.exports = [
         description: 'Talks about how to set who is fronting in the application.',
         title: "Add / set front",
         text:
-            'There are two ways in-app to show a member as fronting. "Set as front" and "Add to front".\n' +
+            'There are two ways in-app to show a member as fronting. "Set as front" and "Add to front". \n' +
             '\n' +
             'Using "Set as front" will clear all members from your front list, and then add that member. "Add to front" ' +
             'won\'t remove anyone from the list, but it will add the member whose add icon you tapped. You can ' +
@@ -91,7 +91,7 @@ module.exports = [
             'Custom fronts is a kind of status for fronts, like "blurred", "unknown member", "dissociated", etc... \n' +
             '\n' +
             'You don\'t want those to show up as real members in your system list but you still want to be able to ' +
-            'set front as one of them — that\'s where custom fronts kick in.\n' +
+            'set front as one of them — that\'s where custom fronts kick in. \n' +
             '\n' +
             'They\'re highly customizable (as per popular request), so you can name them anything you want.'
     },
@@ -128,7 +128,7 @@ module.exports = [
             'The feature of messaging other systems within the app is out of scope, as the app is not meant to be a ' +
             'social community app, but a tool for you and your friends. Adding messages between systems would need ' +
             'us to implement moderation tools, moderation team and the actual feature, which is not the direction ' +
-            'we are taking the app in right now.\n' +
+            'we are taking the app in right now. \n' +
             '\n' +
             'Messaging within the system, between headmates, is planned for the future so you can communicate more ' +
             'easily within the system.'
@@ -141,14 +141,14 @@ module.exports = [
         description: 'Explains how your friends can get notifications from your system.',
         title: "Notifications",
         text:
-            'If you are having trouble receiving front notifications, or your friends have trouble receiving front notifications; please check the following:\n\n' +
-            '- You have front notifications enabled for the friend\n- The friend has opted-in into your front notifications' +
-            '\n- The friend has enabled notifications for the app in the OS settings (Android, iOS)\n- Your members don\'t prevent front notifications,' +
+            'If you are having trouble receiving front notifications, or your friends have trouble receiving front notifications; please check the following: \n \n' +
+            '- You have front notifications enabled for the friend \n - The friend has opted-in into your front notifications' +
+            '\n - The friend has enabled notifications for the app in the OS settings (Android, iOS) \n - Your members don\'t prevent front notifications,' +
             ' go into the settings of your members that front and make sure \"Prevent front notifications\" is turned off.' +
-            '\n- If they are a trusted friend, make sure that your members that are changing front are visible to trusted friends.\n- If they are a regular friend, make sure that the members that are changing front are visible to all friends.\n' +
-            '\nIf all of the above checks out, do the following: The person who can\'t receive notifications, create a repeated reminder 3 minutes from now. Then, wait a few minutes until the notification should arrive.' +
+            '\n - If they are a trusted friend, make sure that your members that are changing front are visible to trusted friends. \n - If they are a regular friend, make sure that the members that are changing front are visible to all friends. \n' +
+            '\n If all of the above checks out, do the following: The person who can\'t receive notifications, create a repeated reminder 3 minutes from now. Then, wait a few minutes until the notification should arrive.' +
             ' If the notification arrives, then your account has been set up to properly receive notifications and go over the list again to make sure everything checks out.' +
-            '\nIf you do not get an automated reminder notification after a few minutes, then email the developers at hello@apparyllis.com so that they can look into your specific issue. '
+            '\n If you do not get an automated reminder notification after a few minutes, then email the developers at hello@apparyllis.com so that they can look into your specific issue. '
      },
     {
         names: [
@@ -276,7 +276,7 @@ module.exports = [
         ],
         title: "Logs",
         description: "Talks about how to provide logs to the developers",
-        text: 'You\'ve been requested to provide logs to the developers in response to the replied message.\n ' +
+        text: 'You\'ve been requested to provide logs to the developers in response to the replied message. \n ' +
         '\n' +
         'Please send the logs to the developers by ' +
         'going to Settings -> Options and scroll to the bottom and click \"Share logs\", then select Discord or email. Send them to Amaryllis on Discord or ' +
