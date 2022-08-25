@@ -88,10 +88,10 @@ module.exports = [
         description: 'Explains what "custom front" is.',
         title: "Custom fronts",
         text:
-            'Custom fronts is a kind of status for fronts, like "blurred", "unknown member", "dissociated", etc... \n' +
+            'Custom fronts is a kind of status for fronts, like "blurred", "unknown member", "dissociated", etc... \n ' +
             '\n' +
             'You don\'t want those to show up as real members in your system list but you still want to be able to ' +
-            'set front as one of them — that\'s where custom fronts kick in. \n' +
+            'set front as one of them — that\'s where custom fronts kick in. \n ' +
             '\n' +
             'They\'re highly customizable (as per popular request), so you can name them anything you want.'
     },
@@ -141,13 +141,13 @@ module.exports = [
         description: 'Explains how your friends can get notifications from your system.',
         title: "Notifications",
         text:
-            'If you are having trouble receiving front notifications, or your friends have trouble receiving front notifications; please check the following: \n \n' +
-            '- You have front notifications enabled for the friend \n - The friend has opted-in into your front notifications' +
-            '\n - The friend has enabled notifications for the app in the OS settings (Android, iOS) \n - Your members don\'t prevent front notifications,' +
-            ' go into the settings of your members that front and make sure \"Prevent front notifications\" is turned off.' +
-            '\n - If they are a trusted friend, make sure that your members that are changing front are visible to trusted friends. \n - If they are a regular friend, make sure that the members that are changing front are visible to all friends. \n' +
-            '\n If all of the above checks out, do the following: The person who can\'t receive notifications, create a repeated reminder 3 minutes from now. Then, wait a few minutes until the notification should arrive.' +
-            ' If the notification arrives, then your account has been set up to properly receive notifications and go over the list again to make sure everything checks out.' +
+            'If you are having trouble receiving front notifications, or your friends have trouble receiving front notifications; please check the following: \n \n ' +
+            '- You have front notifications enabled for the friend \n - The friend has opted-in into your front notifications ' +
+            '\n - The friend has enabled notifications for the app in the OS settings (Android, iOS) \n - Your members don\'t prevent front notifications, ' +
+            ' go into the settings of your members that front and make sure \"Prevent front notifications\" is turned off. ' +
+            '\n - If they are a trusted friend, make sure that your members that are changing front are visible to trusted friends. \n - If they are a regular friend, make sure that the members that are changing front are visible to all friends. \n ' +
+            '\n If all of the above checks out, do the following: The person who can\'t receive notifications, create a repeated reminder 3 minutes from now. Then, wait a few minutes until the notification should arrive. ' +
+            ' If the notification arrives, then your account has been set up to properly receive notifications and go over the list again to make sure everything checks out. ' +
             '\n If you do not get an automated reminder notification after a few minutes, then email the developers at hello@apparyllis.com so that they can look into your specific issue. '
      },
     {
@@ -199,11 +199,11 @@ module.exports = [
         text:
             'If you wish to sync your members to PluralKit, go into the settings page -> Integrations -> PluralKit ' +
             'and fill in your PluralKit token, you can get this token by typing pk;token anywhere and PluralKit ' +
-            'will message you the token in a DM. \n' +
+            'will message you the token in a DM. \n ' +
             '\n' +
             'Once filled out, you can go to actions in the members page and press "Sync" (rebooting app may be ' +
             'required to see this option after adding the token). You will be prompted with the option to "Sync to PK" ' +
-            'and "Sync from PK". \n' +
+            'and "Sync from PK". \n ' +
             '\n' +
             'Pay attention that they are linked by the PluralKit ID found in the individual member settings in ' +
             'Simply Plural. If you make a member on Simply Plural and you make the same member on PluralKit, you ' +
@@ -233,7 +233,7 @@ module.exports = [
         title: "Website",
         description: 'Talks about the possibility of having a web portal for Simply Plural.',
         text: 
-            'There is a web version of the app at https://app.apparyllis.com/ . \n' +
+            'There is a web version of the app at https://app.apparyllis.com/ . \n ' +
             '\n' +
             'Please note there are some minor differences from the app version (such as uploading avatars, etc). \n ' +
             '\n' +
