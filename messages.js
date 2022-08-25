@@ -8,10 +8,11 @@
 module.exports = [
     {
         names: [
-            "add-friend",
-            "add-friends",
-            "addfriend",
-            "af",
+            'add-friend',
+            'add-friends',
+            'addfriend',
+            'addfriends',
+            'af',
         ],
         description: 'Explains how to troubleshoot not being able to add a friend.',
         title: "Add friend",
@@ -22,7 +23,7 @@ module.exports = [
     },
     {
         names: [
-            "add-set-front",
+            'add-set-front',
             'addsetfront',
             'addset-front',
             'add-setfront',
@@ -30,8 +31,10 @@ module.exports = [
             'addset',
             'add-front',
             'addfront',
+            'addtofront',
             'set-front',
             'setfront',
+            'settofront',
             'asf',
         ],
         description: 'Talks about how to set who is fronting in the application.',
@@ -45,8 +48,10 @@ module.exports = [
     },
     {
         names: [
-            "avatar",
-            "avatars"
+            'avatar',
+            'avatars',
+            'images',
+            'image',
         ],
         description: 'Explains why avatars uploaded to Simply Plural does not sync to PluralKit',
         title: "Uploaded Avatars",
@@ -57,26 +62,28 @@ module.exports = [
     },
     {
         names: [
-            "custom-fields",
-            "customfields",
-            "customfield",
-            "cfi",
+            'custom-fields',
+            'customfields',
+            'custom-field',
+            'customfield',
+            'cfi',
         ],
         description: 'Talks about the "custom fields" feature.',
         title: "Custom fields",
         text:
-            'Custom fields are customizable fields for members such as: Birthday, Favorite Food, System Role, etc... ' +
-            'You can set them up in settings -> Custom Fields. Every field has its own privacy, so you can set some fields ' +
+            'Custom fields are customizable fields for members such as: Birthday, Favorite Food, System Role, etc... \n' +
+            '\n' +
+            'You can set them up in Settings -> Custom Fields. Every field has its own privacy, so you can set some fields ' +
             'to be seen by all your friends, only your trusted friends or only your own system. There is no limit to ' +
             'how many custom fields you can have. '
     },
     {
         names: [
-            "custom-front",
-            "custom-fronts",
-            "customfront",
-            "customfronts",
-            "cf",
+            'custom-front',
+            'custom-fronts',
+            'customfront',
+            'customfronts',
+            'cf',
         ],
         description: 'Explains what "custom front" is.',
         title: "Custom fronts",
@@ -90,7 +97,7 @@ module.exports = [
     },
     {
         names: [
-            "front-history-importing",
+            'front-history-importing',
             'fronthistoryimporting',
             'fronthistory-importing',
             'front-historyimporting',
@@ -113,7 +120,7 @@ module.exports = [
     },
     {
         names: [
-            "messaging",
+            'messaging',
         ],
         description: 'Talks about the possibility of having a messaging feature.',
         title: "Messaging",
@@ -128,8 +135,8 @@ module.exports = [
     },
     {
         names: [
-            "notifications",
-            "notification",
+            'notifications',
+            'notification',
         ],
         description: 'Explains how your friends can get notifications from your system.',
         title: "Notifications",
@@ -145,10 +152,11 @@ module.exports = [
      },
     {
         names: [
-            "see-members",
-            "seemembers",
-            "seembmer",
-            "sm",
+            'see-members',
+            'seemembers',
+            'seemember',
+            'see-member',
+            'sm',
         ],
         description: 'Explains how to allow your friends to see your members.',
         title: "See members",
@@ -204,10 +212,11 @@ module.exports = [
     },
     {
         names: [
-            "system-relationships",
-            "system-relationship",
-            "systemrelationships",
-            "sr",
+            'system-relationships',
+            'system-relationship',
+            'systemrelationships',
+            'systemrelationship',
+            'sr',
         ],
         description: 'Explains what "system relationships" are.',
         title: "System relationships",
@@ -219,31 +228,41 @@ module.exports = [
     },
     {
         names: [
-            "website",
+            'website',
         ],
         title: "Website",
         description: 'Talks about the possibility of having a web portal for Simply Plural.',
         text: 
-            'There is a web version of the app at https://app.apparyllis.com/ . ' +
+            'There is a web version of the app at https://app.apparyllis.com/ . \n' +
+            '\n' +
             'Please note there are some minor differences from the app version (such as uploading avatars, etc). \n ' +
-         
+            '\n' +
             'As a reminder, your PluralKit token won\'t transfer to the website automatically, so you\'ll need to re-add ' + 
             'it to "Integrations" to be able for importing from PluralKit, syncing to PluralKit and exporting to PluralKit.'
         
     },
     {
-        names: ["moreavatars", "moreavatar", "more-avatars", "moreimages", "more-images"],
+        names: [
+            'moreavatars',
+            'moreavatar',
+            'more-avatars',
+            'moreimages',
+            'more-images',
+        ],
         title: "Avatars",
         description: "Talks about why more avatar functionality won't be added",
         text: 'Adding more uploading avatar functionality is not something that\'s possible for us, we\'re funded by Patreon and a non-profit, ' + 
               'alongside self-funding. Storing and uploading avatars comes with a cost that would expand exponentially if we were to add it to ' +
               'more features. \n' +
-
-              'However, you can add images to any text box that supports Markdown by using "![text](link)" and adding an image link ' +
+              '\n' +
+              'However, you can add images to any text box that supports Markdown by using `![text](link)` and adding an image link ' +
               'inside of "(link)". '
     },
     {
-        names: ["token", "tokens"],
+        names: [
+            'token',
+            'tokens',
+        ],
         title: "Tokens",
         description: "Talks about what Simply Plural Tokens are",
         text: 'Simply Plural Tokens are to enable third-party integrations development for developers. Right now, there are no third-party integrations yet ' + 
@@ -251,10 +270,15 @@ module.exports = [
               'to use those integrations. '
     },
     {
-        names: ["logs", "log"],
+        names: [
+            'logs',
+            'log',
+        ],
         title: "Logs",
         description: "Talks about how to provide logs to the developers",
-        text: 'You\'ve been requested to provide logs to the developers in response to the replied message.\nPlease send the logs to the developers by ' +
+        text: 'You\'ve been requested to provide logs to the developers in response to the replied message.\n ' +
+        '\n' +
+        'Please send the logs to the developers by ' +
         'going to Settings -> Options and scroll to the bottom and click \"Share logs\", then select Discord or email. Send them to Amaryllis on Discord or ' +
         'email hello@apparyllis.com. Then, we can look into what\'s happening! '
     }
