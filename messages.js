@@ -255,7 +255,7 @@ module.exports = [
               'alongside self-funding. Storing and uploading avatars comes with a cost that would expand exponentially if we were to add it to ' +
               'more features. \n' +
               '\n' +
-              'However, you can add images to any text box that supports Markdown by using "![text](link)" and adding an image link ' +
+              'However, you can add images to any text box that supports Markdown by using `![text](link)` and adding an image link ' +
               'inside of "(link)". '
     },
     {
