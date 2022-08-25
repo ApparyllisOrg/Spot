@@ -71,8 +71,9 @@ module.exports = [
         description: 'Talks about the "custom fields" feature.',
         title: "Custom fields",
         text:
-            'Custom fields are customizable fields for members such as: Birthday, Favorite Food, System Role, etc... ' +
-            'You can set them up in settings -> Custom Fields. Every field has its own privacy, so you can set some fields ' +
+            'Custom fields are customizable fields for members such as: Birthday, Favorite Food, System Role, etc... \n' +
+            '\n' +
+            'You can set them up in Settings -> Custom Fields. Every field has its own privacy, so you can set some fields ' +
             'to be seen by all your friends, only your trusted friends or only your own system. There is no limit to ' +
             'how many custom fields you can have. '
     },
@@ -232,9 +233,10 @@ module.exports = [
         title: "Website",
         description: 'Talks about the possibility of having a web portal for Simply Plural.',
         text: 
-            'There is a web version of the app at https://app.apparyllis.com/ . ' +
+            'There is a web version of the app at https://app.apparyllis.com/ . \n' +
+            '\n' +
             'Please note there are some minor differences from the app version (such as uploading avatars, etc). \n ' +
-         
+            '\n' +
             'As a reminder, your PluralKit token won\'t transfer to the website automatically, so you\'ll need to re-add ' + 
             'it to "Integrations" to be able for importing from PluralKit, syncing to PluralKit and exporting to PluralKit.'
         
@@ -252,7 +254,7 @@ module.exports = [
         text: 'Adding more uploading avatar functionality is not something that\'s possible for us, we\'re funded by Patreon and a non-profit, ' + 
               'alongside self-funding. Storing and uploading avatars comes with a cost that would expand exponentially if we were to add it to ' +
               'more features. \n' +
-
+              '\n' +
               'However, you can add images to any text box that supports Markdown by using "![text](link)" and adding an image link ' +
               'inside of "(link)". '
     },
@@ -274,7 +276,9 @@ module.exports = [
         ],
         title: "Logs",
         description: "Talks about how to provide logs to the developers",
-        text: 'You\'ve been requested to provide logs to the developers in response to the replied message.\nPlease send the logs to the developers by ' +
+        text: 'You\'ve been requested to provide logs to the developers in response to the replied message.\n ' +
+        '\n' +
+        'Please send the logs to the developers by ' +
         'going to Settings -> Options and scroll to the bottom and click \"Share logs\", then select Discord or email. Send them to Amaryllis on Discord or ' +
         'email hello@apparyllis.com. Then, we can look into what\'s happening! '
     }
