@@ -40,7 +40,7 @@ module.exports = [
         description: 'Talks about how to set who is fronting in the application.',
         title: "Add / set front",
         text:
-            'There are two ways in-app to show a member as fronting. "Set as front" and "Add to front". \n' +
+            'There are two ways in-app to show a member as fronting. "Set as front" and "Add to front". \n ' +
             '\n' +
             'Using "Set as front" will clear all members from your front list, and then add that member. "Add to front" ' +
             'won\'t remove anyone from the list, but it will add the member whose add icon you tapped. You can ' +
@@ -128,7 +128,7 @@ module.exports = [
             'The feature of messaging other systems within the app is out of scope, as the app is not meant to be a ' +
             'social community app, but a tool for you and your friends. Adding messages between systems would need ' +
             'us to implement moderation tools, moderation team and the actual feature, which is not the direction ' +
-            'we are taking the app in right now. \n' +
+            'we are taking the app in right now. \n ' +
             '\n' +
             'Messaging within the system, between headmates, is planned for the future so you can communicate more ' +
             'easily within the system.'
@@ -145,7 +145,7 @@ module.exports = [
             '- You have front notifications enabled for the friend \n- The friend has opted-in into your front notifications' +
             '\n - The friend has enabled notifications for the app in the OS settings (Android, iOS) \n - Your members don\'t prevent front notifications,' +
             ' go into the settings of your members that front and make sure \"Prevent front notifications\" is turned off.' +
-            '\n - If they are a trusted friend, make sure that your members that are changing front are visible to trusted friends. \n - If they are a regular friend, make sure that the members that are changing front are visible to all friends. \n' +
+            '\n - If they are a trusted friend, make sure that your members that are changing front are visible to trusted friends. \n - If they are a regular friend, make sure that the members that are changing front are visible to all friends. \n ' +
             '\n If all of the above checks out, do the following: The person who can\'t receive notifications, create a repeated reminder 3 minutes from now. Then, wait a few minutes until the notification should arrive.' +
             ' If the notification arrives, then your account has been set up to properly receive notifications and go over the list again to make sure everything checks out.' +
             '\n If you do not get an automated reminder notification after a few minutes, then email the developers at hello@apparyllis.com so that they can look into your specific issue. '
