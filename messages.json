@@ -4,17 +4,17 @@
     "guides": {
       "name": "Guides",
       "desc": "Guides on how to do things in the app",
-      "icon": 59527
+      "icon": 58121
     },
      "support": {
       "name": "Support",
       "desc": "Articles on how to resolve issues with the app",
-      "icon": 61299
+      "icon": 58912
     },
      "rf": {
       "name": "Requested Features",
       "desc": "Frequently asked-for features and our reponses",
-      "icon": 59448
+      "icon": 58873
     }
   },
   "faq": [
