@@ -40,7 +40,7 @@ module.exports = [
         description: 'Talks about how to set who is fronting in the application.',
         title: "Add / set front",
         text:
-            'There are two ways in-app to show a member as fronting. "Set as front" and "Add to front".\n' +
+            'There are two ways in-app to show a member as fronting. "Set as front" and "Add to front". \n' +
             '\n' +
             'Using "Set as front" will clear all members from your front list, and then add that member. "Add to front" ' +
             'won\'t remove anyone from the list, but it will add the member whose add icon you tapped. You can ' +
@@ -71,7 +71,7 @@ module.exports = [
         description: 'Talks about the "custom fields" feature.',
         title: "Custom fields",
         text:
-            'Custom fields are customizable fields for members such as: Birthday, Favorite Food, System Role, etc... \n' +
+            'Custom fields are customizable fields for members such as: Birthday, Favorite Food, System Role, etc... \n ' +
             '\n' +
             'You can set them up in Settings -> Custom Fields. Every field has its own privacy, so you can set some fields ' +
             'to be seen by all your friends, only your trusted friends or only your own system. There is no limit to ' +
@@ -88,10 +88,10 @@ module.exports = [
         description: 'Explains what "custom front" is.',
         title: "Custom fronts",
         text:
-            'Custom fronts is a kind of status for fronts, like "blurred", "unknown member", "dissociated", etc... \n' +
+            'Custom fronts is a kind of status for fronts, like "blurred", "unknown member", "dissociated", etc... \n ' +
             '\n' +
             'You don\'t want those to show up as real members in your system list but you still want to be able to ' +
-            'set front as one of them — that\'s where custom fronts kick in.\n' +
+            'set front as one of them — that\'s where custom fronts kick in. \n ' +
             '\n' +
             'They\'re highly customizable (as per popular request), so you can name them anything you want.'
     },
@@ -128,7 +128,7 @@ module.exports = [
             'The feature of messaging other systems within the app is out of scope, as the app is not meant to be a ' +
             'social community app, but a tool for you and your friends. Adding messages between systems would need ' +
             'us to implement moderation tools, moderation team and the actual feature, which is not the direction ' +
-            'we are taking the app in right now.\n' +
+            'we are taking the app in right now. \n' +
             '\n' +
             'Messaging within the system, between headmates, is planned for the future so you can communicate more ' +
             'easily within the system.'
@@ -141,14 +141,14 @@ module.exports = [
         description: 'Explains how your friends can get notifications from your system.',
         title: "Notifications",
         text:
-            'If you are having trouble receiving front notifications, or your friends have trouble receiving front notifications; please check the following:\n\n' +
-            '- You have front notifications enabled for the friend\n- The friend has opted-in into your front notifications' +
-            '\n- The friend has enabled notifications for the app in the OS settings (Android, iOS)\n- Your members don\'t prevent front notifications,' +
+            'If you are having trouble receiving front notifications, or your friends have trouble receiving front notifications; please check the following: \n \n' +
+            '- You have front notifications enabled for the friend \n- The friend has opted-in into your front notifications' +
+            '\n - The friend has enabled notifications for the app in the OS settings (Android, iOS) \n - Your members don\'t prevent front notifications,' +
             ' go into the settings of your members that front and make sure \"Prevent front notifications\" is turned off.' +
-            '\n- If they are a trusted friend, make sure that your members that are changing front are visible to trusted friends.\n- If they are a regular friend, make sure that the members that are changing front are visible to all friends.\n' +
-            '\nIf all of the above checks out, do the following: The person who can\'t receive notifications, create a repeated reminder 3 minutes from now. Then, wait a few minutes until the notification should arrive.' +
+            '\n - If they are a trusted friend, make sure that your members that are changing front are visible to trusted friends. \n - If they are a regular friend, make sure that the members that are changing front are visible to all friends. \n' +
+            '\n If all of the above checks out, do the following: The person who can\'t receive notifications, create a repeated reminder 3 minutes from now. Then, wait a few minutes until the notification should arrive.' +
             ' If the notification arrives, then your account has been set up to properly receive notifications and go over the list again to make sure everything checks out.' +
-            '\nIf you do not get an automated reminder notification after a few minutes, then email the developers at hello@apparyllis.com so that they can look into your specific issue. '
+            '\n If you do not get an automated reminder notification after a few minutes, then email the developers at hello@apparyllis.com so that they can look into your specific issue. '
      },
     {
         names: [
@@ -199,11 +199,11 @@ module.exports = [
         text:
             'If you wish to sync your members to PluralKit, go into the settings page -> Integrations -> PluralKit ' +
             'and fill in your PluralKit token, you can get this token by typing pk;token anywhere and PluralKit ' +
-            'will message you the token in a DM. \n' +
+            'will message you the token in a DM. \n ' +
             '\n' +
             'Once filled out, you can go to actions in the members page and press "Sync" (rebooting app may be ' +
             'required to see this option after adding the token). You will be prompted with the option to "Sync to PK" ' +
-            'and "Sync from PK". \n' +
+            'and "Sync from PK". \n ' +
             '\n' +
             'Pay attention that they are linked by the PluralKit ID found in the individual member settings in ' +
             'Simply Plural. If you make a member on Simply Plural and you make the same member on PluralKit, you ' +
@@ -233,7 +233,7 @@ module.exports = [
         title: "Website",
         description: 'Talks about the possibility of having a web portal for Simply Plural.',
         text: 
-            'There is a web version of the app at https://app.apparyllis.com/ . \n' +
+            'There is a web version of the app at https://app.apparyllis.com/ . \n ' +
             '\n' +
             'Please note there are some minor differences from the app version (such as uploading avatars, etc). \n ' +
             '\n' +
@@ -253,7 +253,7 @@ module.exports = [
         description: "Talks about why more avatar functionality won't be added",
         text: 'Adding more uploading avatar functionality is not something that\'s possible for us, we\'re funded by Patreon and a non-profit, ' + 
               'alongside self-funding. Storing and uploading avatars comes with a cost that would expand exponentially if we were to add it to ' +
-              'more features. \n' +
+              'more features. \n ' +
               '\n' +
               'However, you can add images to any text box that supports Markdown by using `![text](link)` and adding an image link ' +
               'inside of "(link)". '
@@ -276,7 +276,7 @@ module.exports = [
         ],
         title: "Logs",
         description: "Talks about how to provide logs to the developers",
-        text: 'You\'ve been requested to provide logs to the developers in response to the replied message.\n ' +
+        text: 'You\'ve been requested to provide logs to the developers in response to the replied message. \n ' +
         '\n' +
         'Please send the logs to the developers by ' +
         'going to Settings -> Options and scroll to the bottom and click \"Share logs\", then select Discord or email. Send them to Amaryllis on Discord or ' +
@@ -287,7 +287,7 @@ module.exports = [
             'nointernet',
             'no.internet',
             'no-internet',
-            'noconnetion',
+            'noconnection',
             'no.connection',
             'no-connection',
         ],
