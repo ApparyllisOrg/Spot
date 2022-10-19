@@ -115,8 +115,8 @@ module.exports = [
         description: 'Talks about importing the front history from PluralKit',
         title: "Front history importing",
         text:
-            'Importing your front history to and from PluralKit is planned in the future, but ' +
-            'this feature also takes a lower priority than features unique to Simply Plural.'
+            'Importing your front history to and from PluralKit is planned in the future ' +
+            'and currently not implemented.'
     },
     {
         names: [
@@ -199,8 +199,8 @@ module.exports = [
         title: "Sync members to PluralKit",
         text:
             'If you wish to sync your members to PluralKit, go into the settings page -> Integrations -> PluralKit ' +
-            'and fill in your PluralKit token, you can get this token by typing pk;token anywhere and PluralKit ' +
-            'will message you the token in a DM. \n ' +
+            'and fill in your PluralKit token, you can get this token by typing pk;token anywhere in a PluralKit ' +
+            'enabled Discord server and PluralKit will message you the token in a DM. \n ' +
             '\n' +
             'Once filled out, you can go to actions in the members page and press "Sync" (rebooting app may be ' +
             'required to see this option after adding the token). You will be prompted with the option to "Sync to PK" ' +
@@ -277,7 +277,7 @@ module.exports = [
         ],
         title: "Logs",
         description: "Talks about how to provide logs to the developers",
-        text: 'You\'ve been requested to provide logs to the developers in response to the replied message. \n ' +
+        text: 'If you\'ve been requested to provide logs to the developers: \n ' +
         '\n' +
         'Please send the logs to the developers by ' +
         'going to Settings -> Options and scroll to the bottom and click \"Share logs\", then select Discord or email. Send them to Amaryllis on Discord or ' +
