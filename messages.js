@@ -14,7 +14,7 @@ module.exports = [
             'addfriends',
             'af',
         ],
-        description: 'Explains how to troubleshoot not being able to add a friend.',
+        description: 'Explains how to troubleshoot not being able to add a friend',
         title: "Add friend",
         "text":
             'If you and your friends are unable to add each other as friends, or can\'t find each other as friends, ' +
@@ -37,7 +37,7 @@ module.exports = [
             'settofront',
             'asf',
         ],
-        description: 'Talks about how to set who is fronting in the application.',
+        description: 'Talks about how to set who is fronting in the application',
         title: "Add / set front",
         text:
             'There are two ways in-app to show a member as fronting. "Set as front" and "Add to front". \n ' +
@@ -53,7 +53,7 @@ module.exports = [
             'images',
             'image',
         ],
-        description: 'Explains why avatars uploaded to Simply Plural does not sync to PluralKit',
+        description: 'Explains why avatars uploaded to Simply Plural do not sync to PluralKit',
         title: "Uploaded Avatars",
         "text":
             'Uploaded avatars on Simply Plural do not sync to PluralKit. This is because we have to pay for the hosting of ' +
@@ -68,7 +68,7 @@ module.exports = [
             'customfield',
             'cfi',
         ],
-        description: 'Talks about the "custom fields" feature.',
+        description: 'Talks about the "custom fields" feature',
         title: "Custom fields",
         text:
             'Custom fields are customizable fields for members such as: Birthday, Favorite Food, System Role, etc... \n ' +
@@ -85,7 +85,7 @@ module.exports = [
             'customfronts',
             'cf',
         ],
-        description: 'Explains what "custom front" is.',
+        description: 'Explains what "custom front" is',
         title: "Custom fronts",
         text:
             'Custom fronts is a kind of status for fronts, like "blurred", "unknown member", "dissociated", etc... \n ' +
@@ -112,7 +112,7 @@ module.exports = [
             'frontimport',
             'fhi',
         ],
-        description: 'Talks about importing the front history from PluralKit.',
+        description: 'Talks about importing the front history from PluralKit',
         title: "Front history importing",
         text:
             'Importing your front history to and from PluralKit is planned in the future, but ' +
@@ -122,7 +122,7 @@ module.exports = [
         names: [
             'messaging',
         ],
-        description: 'Talks about the possibility of having a messaging feature.',
+        description: 'Talks about the possibility of having a messaging feature',
         title: "Messaging",
         text: 
             'The feature of messaging other systems within the app is out of scope, as the app is not meant to be a ' +
@@ -138,7 +138,7 @@ module.exports = [
             'notifications',
             'notification',
         ],
-        description: 'Explains how your friends can get notifications from your system.',
+        description: 'Explains how your friends can get notifications from your system',
         title: "Notifications",
         text:
             'If you are having trouble receiving front notifications, or your friends have trouble receiving front notifications; please check the following: \n \n ' +
@@ -146,7 +146,8 @@ module.exports = [
             '\n - The friend has enabled notifications for the app in the OS settings (Android, iOS) \n - Your members don\'t prevent front notifications,' +
             ' go into the settings of your members that front and make sure \"Prevent front notifications\" is turned off.' +
             '\n - If they are a trusted friend, make sure that your members that are changing front are visible to trusted friends. \n - If they are a regular friend, make sure that the members that are changing front are visible to all friends. \n ' +
-            '\n If all of the above checks out, do the following: The person who can\'t receive notifications, create a repeated reminder 3 minutes from now. Then, wait a few minutes until the notification should arrive.' +
+            '\n If all of the above checks out, do the following: \n \n ' +
+            'The person who can\'t receive notifications, create a repeated reminder 3 minutes from now. Then, wait a few minutes until the notification should arrive.' +
             ' If the notification arrives, then your account has been set up to properly receive notifications and go over the list again to make sure everything checks out.' +
             '\n If you do not get an automated reminder notification after a few minutes, then email the developers at hello@apparyllis.com so that they can look into your specific issue. '
      },
@@ -158,7 +159,7 @@ module.exports = [
             'see-member',
             'sm',
         ],
-        description: 'Explains how to allow your friends to see your members.',
+        description: 'Explains how to allow your friends to see your members',
         title: "See members",
         text:
             'If your friends cannot see your members, you have to go into the friend\'s profile, click on the ' +
@@ -194,7 +195,7 @@ module.exports = [
             'smp',
             'smpk',
         ],
-        description: 'Talks about syncing your members to PluralKit.',
+        description: 'Talks about syncing your members to PluralKit',
         title: "Sync members to PluralKit",
         text:
             'If you wish to sync your members to PluralKit, go into the settings page -> Integrations -> PluralKit ' +
@@ -218,7 +219,7 @@ module.exports = [
             'systemrelationship',
             'sr',
         ],
-        description: 'Explains what "system relationships" are.',
+        description: 'Explains what "system relationships" are',
         title: "System relationships",
         text:
             'This is an open-ended field meant to describe what relationships a headmate has. It can be used to ' +
@@ -231,7 +232,7 @@ module.exports = [
             'website',
         ],
         title: "Website",
-        description: 'Talks about the possibility of having a web portal for Simply Plural.',
+        description: 'Talks about the website for Simply Plural',
         text: 
             'There is a web version of the app at https://app.apparyllis.com/ . \n ' +
             '\n' +
