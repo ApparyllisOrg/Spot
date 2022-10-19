@@ -281,5 +281,18 @@ module.exports = [
         'Please send the logs to the developers by ' +
         'going to Settings -> Options and scroll to the bottom and click \"Share logs\", then select Discord or email. Send them to Amaryllis on Discord or ' +
         'email hello@apparyllis.com. Then, we can look into what\'s happening! '
+    },
+     {
+        names: [
+            'nointernet',
+            'no.internet',
+            'no-internet',
+            'noconnetion',
+            'no.connection',
+            'no-connection',
+        ],
+        title: "Connection Issues",
+        description: "Talks about how to resolve and debug connection issues",
+        text: 'If you are having connection issues, please provide us with the following information: Do you use a VPN? Does the issue happen on both WIFI and Cellular internet? How long have you been having this issue?'
     }
 ]
