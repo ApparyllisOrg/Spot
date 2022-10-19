@@ -141,7 +141,7 @@ module.exports = [
         description: 'Explains how your friends can get notifications from your system.',
         title: "Notifications",
         text:
-            'If you are having trouble receiving front notifications, or your friends have trouble receiving front notifications; please check the following: \n \n' +
+            'If you are having trouble receiving front notifications, or your friends have trouble receiving front notifications; please check the following: \n \n ' +
             '- You have front notifications enabled for the friend \n- The friend has opted-in into your front notifications' +
             '\n - The friend has enabled notifications for the app in the OS settings (Android, iOS) \n - Your members don\'t prevent front notifications,' +
             ' go into the settings of your members that front and make sure \"Prevent front notifications\" is turned off.' +
