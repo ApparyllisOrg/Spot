@@ -259,6 +259,17 @@
       "title":"Issues uploading avatars",
       "description":"Talks about how to resolve issues uploading avatars",
       "text":"If you're having an issue uploading avatars, please try uploading the same avatar to another member or custom front and see if that works. If that doesn't work, please try uploading a different image. If you can succesfully upload another image, then there's something wrong with the image itself and you'll have to use another image."
+    },
+    {
+      "friendlyName":"How to change your password",
+      "category": "support",
+      "names":[
+        "changepassword",
+        "passwordchange"
+      ],
+      "title":"How to change your password",
+      "description":"Talks about how to change your password",
+      "text":"Right now the only way to change your password is by logging out of your account and requesting a \"Passowrd reset\" email in the login screen. Then you will be emailed link where you can reset your password."
     }
   ]
 }
