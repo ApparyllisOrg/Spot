@@ -1,16 +1,19 @@
-let names = {};
-let messages = {};
+const fs = require("fs")
+const path = require('path');
 
-const genRandomId = () => Math.ceil(Math.random() * 1000);
+const messages = {};
 
-const load = () => require("../messages").forEach(msg => {
-    let id = genRandomId();
-    while (messages[id])
-        id = genRandomId();
+const load = () => 
+{
+    const messagesFile = fs.readFileSync(path.join(__dirname, '..', 'messages.json'))
+    const messagesJson = JSON.parse(messagesFile);
 
-    msg.names.forEach(name => names[name] = id);
-    messages[id] = msg;
-});
+    const messagesList = messagesJson["faq"];
+
+    messagesList.forEach((msg) => {
+        messages[msg["title"]] = msg
+    })
+}
 
 load();
 
@@ -19,6 +22,8 @@ load();
 //     description string;
 //     title string;
 //     text string;
+//     friendlyName string;
+//     category string;
 // }
 
 module.exports = {
@@ -28,25 +33,33 @@ module.exports = {
     get messages() {
         return messages;
     },
-    get: (name) => messages[names[name]],
+    get: (name) => messages[name],
     getList: () => Object.keys(messages).map(msg => ({ name: messages[msg].names[0], value: messages[msg].description })),
     getEmbed: (name) => {
-        let msg = messages[names[name]];
-        if (!msg) return;
+        
+        let foundMsg = null
+        Object.keys(messages).forEach((msgKey) => 
+        {
+            if (foundMsg) return;
+
+            const msg = messages[msgKey]
+
+            if (msg.names.includes(name))
+            {
+                foundMsg = msg;
+                return;
+            }
+        });
+
+        if (!foundMsg) return;
 
         return {
             color: "A95B44",
             author: {
-                name: msg.title,
+                name: foundMsg.title,
                 iconURL: bot.user.displayAvatarURL({ dynamic: true }),
             },
-            description: msg.text,
+            description: foundMsg.text,
         }
-    },
-    reload: () => {
-        names = {};
-        messages = {};
-        delete require.cache[require.resolve("../messages")];
-        load();
     }
 }

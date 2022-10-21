@@ -4,6 +4,9 @@ const { Client } = require('discord.js');
 const Config = require('./config.json');
 const Command = require('./model/command');
 const fs = require('fs');
+const dotenv = require('dotenv')
+
+dotenv.config();
 
 global.bot = new Client({ fetchAllMembers: true });
 global.isRightGuild = (guildSnowflake) => guildSnowflake === Config.guild;

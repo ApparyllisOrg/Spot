@@ -4,3 +4,5 @@ node_modules
 deploy.sh
 config.*json*
 !config.json.sample
+.env
+package-lock.json
