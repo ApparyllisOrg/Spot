@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-RUN apk add nodejs-current yarn
+RUN apk add nodejs-current npm yarn git
 
 WORKDIR /app
 COPY package.json yarn.lock /app/
@@ -8,4 +8,4 @@ RUN yarn
 
 COPY . /app
 
-CMD ["node", "bot.js"]
+CMD ["yarn", "ts-node", "bot.ts"]
