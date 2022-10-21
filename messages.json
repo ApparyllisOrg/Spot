@@ -247,6 +247,19 @@
       "title":"Connection Issues",
       "description":"Talks about how to resolve and debug connection issues",
       "text":"If you are having connection issues, please provide us with the following information: Do you use a VPN? Does the issue happen on both WIFI and Cellular internet? How long have you been having this issue?"
+    },
+    {
+      "friendlyName":"Issues uploading avatars",
+      "category": "support",
+      "names":[
+        "uploadavatars",
+        "uploadavatar",
+        "avatarupload",
+        "avataruploads"
+      ],
+      "title":"Issues uploading avatars",
+      "description":"Talks about how to resolve issues uploading avatars",
+      "text":"If you're having an issue uploading avatars please try uploading the same avatar to another member or custom front and see if that works. If that doesn't work, please try uploading a different image. If you can succesfully upload another image then there's something wrong with the image itself and you'll have to use another image."
     }
   ]
 }
