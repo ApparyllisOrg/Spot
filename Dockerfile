@@ -8,4 +8,4 @@ RUN npm i
 
 COPY . /app
 
-CMD ["npm", "run", "ts-node", "bot.ts"]
+CMD ["npm", "run", "start"]
