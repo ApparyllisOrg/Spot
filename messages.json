@@ -25,7 +25,9 @@
 				"add-friends",
 				"addfriend",
 				"addfriends",
-				"af"
+				"af",
+				"addingfriends",
+				"addingfriend"
 			],
 			"description": "Explains how to troubleshoot not being able to add a friend",
 			"title": "Add friend",
@@ -51,7 +53,7 @@
 			],
 			"description": "Talks about how to set who is fronting in the application",
 			"title": "Add / set front",
-			"text": "There are two ways in-app to show a member as fronting. \"Set as front\" and \"Add to front\". \n \n Using \"Set as front\" will clear all members from your front list, and then add that member. \"Add to front\" won't remove anyone from the list, but it will add the member whose add icon you tapped. You can individually remove members by tapping the downward facing arrow next to their name."
+			"text": "There are two ways in-app to show a member as fronting. \"Set as front\" and \"Add to front\". \n \n Using \"Set as front\" will clear all members from your front list, and then add that member. \"Add to front\" won't remove anyone from the list, but it will add the member whose add icon you tapped. You can individually remove members by tapping the downward facing arrow next to their name. "
 		},
 		{
 			"friendlyName": "Syncing uploaded avatars to PluralKit",
@@ -64,7 +66,7 @@
 			],
 			"description": "Explains why avatars uploaded to Simply Plural do not sync to PluralKit",
 			"title": "Uploaded Avatars",
-			"text": "Uploaded avatars on Simply Plural do not sync to PluralKit. This is because we have to pay for the hosting of the avatars and the bandwidth associated with it. Allowing usage outside the app would be too costly for us. If you want avatars synced between PluralKit and Simply Plural, make sure that you use avatar URLs instead."
+			"text": "Uploaded avatars on Simply Plural do not sync to PluralKit. This is because we have to pay for the hosting of the avatars and the bandwidth associated with it. Allowing usage outside the app would be too costly for us. If you want avatars synced between PluralKit and Simply Plural, make sure that you use avatar URLs instead. "
 		},
 		{
 			"friendlyName": "What are Custom Fields?",
@@ -78,7 +80,7 @@
 			],
 			"description": "Talks about the \"custom fields\" feature",
 			"title": "Custom fields",
-			"text": "Custom fields are customizable fields for members such as: Birthday, Favorite Food, System Role, etc... \n \n You can set them up in Settings -> Custom Fields. Every field has its own privacy, so you can set some fields to be seen by all your friends, only your trusted friends or only your own system. There is no limit to how many custom fields you can have. "
+			"text": "Custom fields are customizable fields for members such as: Birthday, Favorite Food, System Role, etc... \n \n You can set them up in Settings -> Account Settings -> Custom Fields. Every field has its own privacy, so you can set some fields to be seen by all your friends, only your trusted friends or only your own system. There is no limit to how many custom fields you can have. "
 		},
 		{
 			"friendlyName": "What are Custom Fronts?",
@@ -92,7 +94,7 @@
 			],
 			"description": "Explains what \"custom front\" is",
 			"title": "Custom fronts",
-			"text": "Custom fronts is a kind of status for fronts, like \"blurred\", \"unknown member\", \"dissociated\", etc... \n \n You don't want those to show up as real members in your system list but you still want to be able to set front as one of them, that's where custom fronts kick in. \n \n They're highly customizable (as per popular request), so you can name them anything you want."
+			"text": "Custom fronts is a kind of status for fronts, like \"blurred\", \"unknown member\", \"dissociated\", etc... \n \n You don't want those to show up as real members in your system list but you still want to be able to set front as one of them, that's where custom fronts kick in. \n \n They're highly customizable (as per popular request), so you can name them anything you want. "
 		},
 		{
 			"friendlyName": "Syncing front history from PluralKit",
@@ -115,7 +117,7 @@
 			],
 			"description": "Talks about importing the front history from PluralKit",
 			"title": "Front history importing",
-			"text": "Importing your front history to and from PluralKit is planned in the future and currently not implemented."
+			"text": "Importing your front history to and from PluralKit is planned in the future and currently not implemented. "
 		},
 		{
 			"friendlyName": "In-app chat messages",
@@ -125,7 +127,7 @@
 			],
 			"description": "Talks about the possibility of having a messaging feature",
 			"title": "Messaging",
-			"text": "The feature of messaging other systems within the app is out of scope, as the app is not meant to be a social community app, but a tool for you and your friends. Adding messages between systems would need us to implement moderation tools, moderation team and the actual feature, which is not the direction we are taking the app in right now. \n \n Messaging within the system, between headmates, is planned for the future so you can communicate more easily within the system."
+			"text": "The feature of messaging other systems within the app is out of scope, as the app is not meant to be a social community app, but a tool for you and your friends. Adding messages between systems would need us to implement moderation tools, moderation team and the actual feature, which is not the direction we are taking the app in right now. \n \n Messaging within the system, between headmates, is planned for the future so you can communicate more easily within the system. "
 		},
 		{
 			"friendlyName": "Issues with notifications",
@@ -150,7 +152,7 @@
 			],
 			"description": "Explains how to allow your friends to see your members",
 			"title": "See members",
-			"text": "If your friends cannot see your members, you have to go into the friend's profile, click on the cogwheel on the top right and press \"They can see your shared members\", this will allow them to see your public members or your members marked as \"Shown to Trusted Friends\", if they are marked as a \"Trusted friend\"."
+			"text": "If your friends cannot see your members, you have to go into the friend's profile, click on the cogwheel on the top right and press \"They can see your shared members\", this will allow them to see your public members or your members marked as \"Shown to Trusted Friends\", if they are marked as a \"Trusted friend\". "
 		},
 		{
 			"friendlyName": "Syncing members to and from PluralKit",
@@ -184,7 +186,7 @@
 			],
 			"description": "Talks about syncing your members to PluralKit",
 			"title": "Sync members to PluralKit",
-			"text": "If you wish to sync your members to PluralKit, go into the settings page -> Integrations -> PluralKit and fill in your PluralKit token, you can get this token by typing pk;token anywhere in a PluralKit enabled Discord server and PluralKit will message you the token in a DM. \n \n Once filled out, you can go to actions in the members page and press \"Sync\" (rebooting app may be required to see this option after adding the token). You will be prompted with the option to \"Sync to PK\" and \"Sync from PK\". \n \n Pay attention that they are linked by the PluralKit ID found in the individual member settings in Simply Plural. If you make a member on Simply Plural and you make the same member on PluralKit, you will have to go into the individual member settings of Simply Plural and fill in the PluralKit user ID in the settings. If you don't do this, you will end up with duplicate members on PluralKit."
+			"text": "If you wish to sync your members to PluralKit, go into the settings page -> Integrations -> PluralKit and fill in your PluralKit token, you can get this token by typing pk;token anywhere in a PluralKit enabled Discord server and PluralKit will message you the token in a DM. \n \n Once filled out, you can go to actions in the members page and press \"Sync\" (rebooting app may be required to see this option after adding the token). You will be prompted with the option to \"Sync to PK\" and \"Sync from PK\". \n \n Pay attention that they are linked by the PluralKit ID found in the individual member settings in Simply Plural. If you make a member on Simply Plural and you make the same member on PluralKit, you will have to go into the individual member settings of Simply Plural and fill in the PluralKit user ID in the settings. If you don't do this, you will end up with duplicate members on PluralKit. "
 		},
 		{
 			"friendlyName": "Web version for the app",
@@ -194,7 +196,7 @@
 			],
 			"title": "Website",
 			"description": "Talks about the website for Simply Plural",
-			"text": "There is a web version of the app at https://app.apparyllis.com/ . \n \n Please note there are some minor differences from the app version (such as uploading avatars, etc). \n \n As a reminder, your PluralKit token won't transfer to the website automatically, so you'll need to re-add it to \"Integrations\" to be able for importing from PluralKit, syncing to PluralKit and exporting to PluralKit."
+			"text": "There is a web version of the app at https://app.apparyllis.com/ . \n \n Please note there are some minor differences from the app version (such as uploading avatars, etc). \n \n As a reminder, your PluralKit token won't transfer to the website automatically, so you'll need to re-add it to \"Integrations\" to be able for importing from PluralKit, syncing to PluralKit and exporting to PluralKit. "
 		},
 		{
 			"friendlyName": "Adding uploaded avatars to more features in the app",
@@ -230,7 +232,7 @@
 			],
 			"title": "Logs",
 			"description": "Talks about how to provide logs to the developers",
-			"text": "If you've been requested to provide logs to the developers: \n \n Please send the logs to the developers by going to Settings -> Options and scroll to the bottom and click \"Share logs\", then select email. Send them to hello@apparyllis.com. Then, we can look into what's happening! "
+			"text": "If you've been requested to provide logs to the developers: \n \n Please send the logs to the developers by going to Settings -> App settings -> Options and scroll to the bottom and click \"Share logs\", then select email. Send them to hello@apparyllis.com. Then, we can look into what's happening! "
 		},
 		{
 			"friendlyName": "Connection issues with the app",
@@ -245,7 +247,7 @@
 			],
 			"title": "Connection Issues",
 			"description": "Talks about how to resolve and debug connection issues",
-			"text": "If you are having connection issues, please provide us with the following information: Do you use a VPN? Does the issue happen on both WIFI and Cellular internet? How long have you been having this issue?"
+			"text": "If you are having connection issues, please provide the developers in either the Simply Plural Discord or by emailing them at hello@apparyllis.com with the following information: \n \n - Whether or not you are using a VPN, \n - If the issue is exclusive to Wi-Fi or cellular data, \n - How long the issue has been occurring. "
 		},
 		{
 			"friendlyName": "Issues uploading avatars",
@@ -254,34 +256,43 @@
 				"uploadavatars",
 				"uploadavatar",
 				"avatarupload",
-				"avataruploads"
+				"avataruploads",
+				"avataruploading",
+				"uploadingavatars"
 			],
 			"title": "Issues uploading avatars",
 			"description": "Talks about how to resolve issues uploading avatars",
-			"text": "If you're having an issue uploading avatars, please try uploading the same avatar to another member or custom front and see if that works. If that doesn't work, please try uploading a different image. If you can succesfully upload another image, then there's something wrong with the image itself and you'll have to use another image."
+			"text": "If you're having an issue uploading avatars, please try uploading the same avatar to another member or custom front and see if that works. If that doesn't work, please try uploading a different image. If you can succesfully upload another image, then there's something wrong with the image itself and you'll have to use another image. "
 		},
 		{
 			"friendlyName": "How to change your password",
 			"category": "support",
 			"names": [
 				"changepassword",
-				"passwordchange"
+				"passwordchange",
+				"pwchange",
+				"changepw",
+				"changingyourpassword",
+				"changingyourpw"
 			],
 			"title": "How to change your password",
 			"description": "Talks about how to change your password",
-			"text": "Right now the only way to change your password is by logging out of your account and requesting a \"Passowrd reset\" email in the login screen. Then you will be emailed link where you can reset your password."
-		},
+			"text": "Right now, the only way to change your password is by logging out of your account and requesting a \"Password reset\" email in the login screen. Then, you will be emailed a link where you can reset your password. "
 		{
 			"friendlyName": "How to reset your password",
 			"category": "support",
 			"names": [
 				"lostpassword",
 				"forgotpassword",
-				"forgotpw"
+				"forgotpw",
+				"lostpw",
+				"passwordlost",
+				"passwordforgot",
+				"lostpw"
 			],
 			"title": "How to reset your password",
 			"description": "Talks about how to reset your password",
-			"text": "If you forgot your password to your account you will need to press \"Forgot Password\" on the login page. Type in your email address and an email will be sent to your account to reset the password. If you do not receive an email it is either in spam or there is no account under that email. If you originally signed up with a typo in your email you will not be able to reset your password and you will need to remember your Simply Plural password"
+			"text": "If you forget your password to your account, you will need to press \"Forgot Password\" on the login page. Type in your email address and an email will be sent to your account to reset the password. If you do not receive an email, it is either in spam or there is no account under that email. If you originally signed up with a typo in your email, you will not be able to reset your password and you will need to remember your Simply Plural password. "
 		},
 		{
 			"friendlyName": "How to recover your email",
@@ -290,22 +301,35 @@
 				"recoveremail",
 				"recovermail",
 				"forgotemail",
-				"forgotmail"
+				"forgotmail",
+				"emailforgot",
+				"emailrecover",
+				"mailforgot",
+				"mailrecover"
 			],
 			"title": "How to recover your email",
 			"description": "Talks about how to recover your email",
-			"text": "If you're having trouble logging in and do not remember your email to login, or you're not sure which email is assigned to your account you will need to use \"Forgot email\" on the login page. This feature is only available in version 1.8 and up. Once you are on the forgot email account type in your username that you use for the app. Once you did that and requested recovery you will receive an email on the email that is assigned to that email account. If you do not receive an email then it's either in spam, it's on an email you've forgotten about or you orignally had a typo in your email.\nIf it's not in spam and you cannot find the email for recovery then unfortunately we will not be able to help you. In order to recover an email you need to have access to the email the account is registered under."
+			"text": "If you're having trouble logging in and do not remember your email to login or you're not sure which email is assigned to your account, you will need to use \"Forgot email\" on the login page. This feature is only available in version 1.8 and up. Once you are on the \"Forgot email\" page, type in your username that you use for the app. Once you do that and request recovery, you will receive an email on the email that is assigned to that email account. If you do not receive an email, then it's either in spam, it's on an email you've forgotten about or you orignally had a typo in your email. \n \n If it's not in spam and you cannot find the email for recovery, then unfortunately we will not be able to help you. In order to recover an email, you need to have access to the email the account is registered under. "
 		},
 		{
 			"friendlyName": "How to recover your account",
 			"category": "support",
 			"names": [
 				"recoveraccount",
-				"recoveracc"
+				"recoveracc",
+				"accountrecover",
+				"accrecover",
+				"recoveringaccount",
+				"recoveringacc",
+				"recoveringaccounts",
+				"recoveringaccount",
+				"accountrecovering",
+				"accrecovering",
+				"recoveringacc"
 			],
 			"title": "How to recover your account",
 			"description": "Talks about how to recover your account",
-			"text": "To recover your account please use \"Forgot password\" and \"Forgot email\" on the login page. If you know what email your account is registered under but you do not have access to that email then you cannot receive a reset for your password. To change the email associated to your account you will need to login to the app and know the password to your account, then in account settings you can change your email associated to your account. If you do not know the password to your account, and you do not have access to your email account then you cannot recover your account.\nIf you are still logged in to your account on another device and you wish to backup your data you can connect your account with PluralKit to export your members. If you want to recover the front history and customfronts you can create a user report in the menu. Once you created a user export make sure to save it as a PDF so you have a copy of the data."
+			"text": "In order to recover your account, please use \"Forgot password\" and \"Forgot email\" on the login page. If you know what email your account is registered under, but you do not have access to that email, then you cannot receive a reset for your password. To change the email associated to your account, you will need to login to the app and know the password to your account, then in \"Account Settings\", you can change your email associated to your account. If you do not know the password to your account and you do not have access to your email account, you cannot recover your account. \n \n If you are still logged in to your account on another device and you wish to backup your data, you can connect your account with PluralKit to export your members. If you want to recover the front history and custom fronts, you can create a \"User Report\" by going to Settings -> Account -> User Report. Once you create a user export, make sure to save it as a PDF so you have a copy of the data. "
 		}
 	]
 }
