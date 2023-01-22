@@ -78,7 +78,7 @@
 			],
 			"description": "Talks about the \"custom fields\" feature",
 			"title": "Custom fields",
-			"text": "Custom fronts is a kind of status for fronts, like \"blurred\", \"unknown member\", \"dissociated\", etc... \n \n You don't want those to show up as real members in your system list, but you still want to be able to set front as one of them, that's where custom fronts kick in. \n \n They're highly customizable (as per popular request), so you can name them anything you want. "
+			"text": "Custom fields are customizable fields for members such as: Birthday, Favorite Food, System Role, etc... \n \n You can set them up in Settings -> Account Settings -> Custom Fields. Every field has its own privacy, so you can set some fields to be seen by all your friends, only your trusted friends or only your own system. There is no limit to how many custom fields you can have. "
 		},
 		{
 			"friendlyName": "What are Custom Fronts?",
