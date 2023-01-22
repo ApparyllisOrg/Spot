@@ -25,7 +25,9 @@
 				"add-friends",
 				"addfriend",
 				"addfriends",
-				"af"
+				"af",
+				"addingfriends",
+				"addingfriend"
 			],
 			"description": "Explains how to troubleshoot not being able to add a friend",
 			"title": "Add friend",
@@ -254,7 +256,9 @@
 				"uploadavatars",
 				"uploadavatar",
 				"avatarupload",
-				"avataruploads"
+				"avataruploads",
+				"avataruploading",
+				"uploadingavatars"
 			],
 			"title": "Issues uploading avatars",
 			"description": "Talks about how to resolve issues uploading avatars",
@@ -267,7 +271,9 @@
 				"changepassword",
 				"passwordchange",
 				"pwchange",
-				"changepw"
+				"changepw",
+				"changingyourpassword",
+				"changingyourpw"
 			],
 			"title": "How to change your password",
 			"description": "Talks about how to change your password",
@@ -297,7 +303,9 @@
 				"forgotemail",
 				"forgotmail",
 				"emailforgot",
-				"emailrecover"
+				"emailrecover",
+				"mailforgot",
+				"mailrecover"
 			],
 			"title": "How to recover your email",
 			"description": "Talks about how to recover your email",
@@ -310,7 +318,14 @@
 				"recoveraccount",
 				"recoveracc",
 				"accountrecover",
-				"accrecover"
+				"accrecover",
+				"recoveringaccount",
+				"recoveringacc",
+				"recoveringaccounts",
+				"recoveringaccount",
+				"accountrecovering",
+				"accrecovering",
+				"recoveringacc"
 			],
 			"title": "How to recover your account",
 			"description": "Talks about how to recover your account",
