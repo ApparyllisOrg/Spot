@@ -278,6 +278,7 @@
 			"title": "How to change your password",
 			"description": "Talks about how to change your password",
 			"text": "Right now, the only way to change your password is by logging out of your account and requesting a \"Password reset\" email in the login screen. Then, you will be emailed a link where you can reset your password. "
+		},
 		{
 			"friendlyName": "How to reset your password",
 			"category": "support",
