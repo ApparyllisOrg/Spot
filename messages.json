@@ -94,7 +94,7 @@
 			],
 			"description": "Explains what \"custom front\" is",
 			"title": "Custom fronts",
-			"text": "Custom fronts is a kind of status for fronts, like \"blurred\", \"unknown member\", \"dissociated\", etc... \n \n You don't want those to show up as real members in your system list but you still want to be able to set front as one of them, that's where custom fronts kick in. \n \n They're highly customizable (as per popular request), so you can name them anything you want. "
+			"text": "Custom fronts is a kind of status for fronts, like \"blurred\", \"unknown member\", \"dissociated\", etc... \n \n You don't want those to show up as real members in your system list, but you still want to be able to set front as one of them, that's where custom fronts kick in. \n \n They're highly customizable (as per popular request), so you can name them anything you want. "
 		},
 		{
 			"friendlyName": "Syncing front history from PluralKit",
@@ -341,7 +341,7 @@
 			],
 			"title": "How to resolve avatars not uploading",
 			"description": "Talks about how to resolve avatars not uploading",
-			"text": "If you're having issues uploading an avatar please try uploading another avatar. If the avatar image is in the wrong format or potentially corrupted then it will not be able to upload. If there is an image you really want to upload but it always fails then take a screenshot of the image you want to upload and upload the screenshot instead."
+			"text": "If you're having issues uploading an avatar, please try uploading another avatar. If the avatar image is in the wrong format or is potentially corrupted, then it will not be able to upload. If there is an image you really want to upload, but it always fails, then take a screenshot of the image you want to upload and upload the screenshot instead."
 		},
 		{
 			"friendlyName": "Explain logout issue after updating to 1.8",
