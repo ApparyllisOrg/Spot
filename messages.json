@@ -353,6 +353,17 @@
 			"title": "Explain logout issue after updating to 1.8",
 			"description": "Explains logout issue after updating to 1.8",
 			"text": "Version 1.8 changed how authentication is handled to move it from Google to our own servers to improve user privacy. Due to this change, the app no longer has you logged in and you will need to relogin after you've updated to 1.8 from an earlier version."
+		},
+		{
+			"friendlyName": "Explain how to use markdown",
+			"category": "guides",
+			"names": [
+				"markdown",
+				"mark-down"
+			],
+			"title": "Explain how to use markdown",
+			"description": "Explain how to use markdown",
+			"text": "Many Simply Plural fields support a feature known as Markdown. These fields are indicated with a paint brush / paint roller icon in the upper right hand corner. Markdown uses the text you input to format your text, allowing you to make your text larger, bold or italics, insert images, and much more.\nThis is not a comprehensive guide, and not every feature listed here works in Simply Plural, but this is a guide of sorts to help you get started with Markdown. There is currently no guide that is tailored only to the features of Simply Plural. \n\nhttps://markdown-it.github.io/"
 		}
 	]
 }
