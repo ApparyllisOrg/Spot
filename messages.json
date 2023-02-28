@@ -94,7 +94,7 @@
 			],
 			"description": "Explains what \"custom front\" is",
 			"title": "Custom fronts",
-			"text": "Custom fronts is a kind of status for fronts, like \"blurred\", \"unknown member\", \"dissociated\", etc... \n \n You don't want those to show up as real members in your system list but you still want to be able to set front as one of them, that's where custom fronts kick in. \n \n They're highly customizable (as per popular request), so you can name them anything you want. "
+			"text": "Custom fronts is a kind of status for fronts, like \"blurred\", \"unknown member\", \"dissociated\", etc... \n \n You don't want those to show up as real members in your system list, but you still want to be able to set front as one of them, that's where custom fronts kick in. \n \n They're highly customizable (as per popular request), so you can name them anything you want. "
 		},
 		{
 			"friendlyName": "Syncing front history from PluralKit",
@@ -127,7 +127,7 @@
 			],
 			"description": "Talks about the possibility of having a messaging feature",
 			"title": "Messaging",
-			"text": "The feature of messaging other systems within the app is out of scope, as the app is not meant to be a social community app, but a tool for you and your friends. Adding messages between systems would need us to implement moderation tools, moderation team and the actual feature, which is not the direction we are taking the app in right now. \n \n Messaging within the system, between headmates, is planned for the future so you can communicate more easily within the system. "
+			"text": "The feature of messaging other systems within the app is out of scope, as the app is not meant to be a social community app, but a tool for you and your friends. Adding messages between systems would need us to implement moderation tools, moderation team and the actual feature, which is not the direction we are taking the app in right now. \n \n Messaging within the system, between headmates, was added in version 1.8 and can be accessed through the \"Dashboard\" or through the navigation menu. With this feature, you can communicate more easily within your system. "
 		},
 		{
 			"friendlyName": "Issues with notifications",
@@ -341,7 +341,7 @@
 			],
 			"title": "How to resolve avatars not uploading",
 			"description": "Talks about how to resolve avatars not uploading",
-			"text": "If you're having issues uploading an avatar please try uploading another avatar. If the avatar image is in the wrong format or potentially corrupted then it will not be able to upload. If there is an image you really want to upload but it always fails then take a screenshot of the image you want to upload and upload the screenshot instead."
+			"text": "If you're having issues uploading an avatar, please try uploading another avatar. If the avatar image is in the wrong format or is potentially corrupted, then it will not be able to upload. If there is an image you really want to upload, but it always fails, then take a screenshot of the image you want to upload and upload the screenshot instead."
 		},
 		{
 			"friendlyName": "Explain logout issue after updating to 1.8",
