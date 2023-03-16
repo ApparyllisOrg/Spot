@@ -364,6 +364,17 @@
 			"title": "Explain how to use markdown",
 			"description": "Explain how to use markdown",
 			"text": "Many Simply Plural fields support a feature known as Markdown. These fields are indicated with a paint brush / paint roller icon in the upper right hand corner. Markdown uses the text you input to format your text, allowing you to make your text larger, bold or italics, insert images, and much more.\nThis is not a comprehensive guide, and not every feature listed here works in Simply Plural, but this is a guide of sorts to help you get started with Markdown. There is currently no guide that is tailored only to the features of Simply Plural. \n\nhttps://markdown-it.github.io/"
+		},
+		{
+			"friendlyName": "Explain issues with avatars loading and uploading",
+			"category": "support",
+			"names": [
+				"avataruploads",
+				"peakavatars"
+			],
+			"title": "Explain issues with avatars loading and uploading",
+			"description": "Explain issues with avatars loading and uploading",
+			"text": "Loading and uploading avatars at peak time may be slow or not possible, try again later or try another time. Currently Simply Plural is free and ad-free and is only funded by Patreon which means we cannot afford the same quality of avatars/images support as big companies that charge for their apps or have advertisements."
 		}
 	]
 }
