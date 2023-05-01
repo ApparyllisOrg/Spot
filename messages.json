@@ -375,6 +375,27 @@
 			"title": "Explain issues with avatars loading and uploading",
 			"description": "Explain issues with avatars loading and uploading",
 			"text": "Loading and uploading avatars at peak time may be slow or not possible, try again later or another time. Currently Simply Plural is free and ad-free and is only funded by Patreon which means we cannot afford the same quality of avatars/images support as big companies that charge for their apps or have advertisements."
+		},
+		{
+			"friendlyName": "Explains avatar upload functionality",
+			"category": "support",
+			"names": [
+				"noavatars"
+			],
+			"title": "Explains avatar upload functionality",
+			"description": "Explains avatar upload functionality",
+			"text": "Starting 1.9 we discontinued in-app-uploaded avatars due to the high costs associated to it. Simply Plural is a free app, with no advertisements, with our only revenue being from Patreon and other monetary supports, such as The Plural Association. Avatar urls are not affected. You can read more about it here: https://apparyllis.com/simply-plural-avatar-functionality/"
+		},
+		{
+			"friendlyName": "Disconnecting social logins",
+			"category": "support",
+			"names": [
+				"disconnectsocial",
+				"removesocial"
+			],
+			"title": "Disconnecting social logins",
+			"description": "Disconnecting social logins (google, apple)",
+			"text": "If you are logging in with socials (google, apple), and you wish to convert your account to a normal password account, please request a password reset. This will send you a link to reset your password which will set the password for your account and unlink you from social logins. This means you will need to login with email and password from there on."
 		}
 	]
 }
