@@ -384,7 +384,7 @@
 			],
 			"title": "Explains avatar upload functionality",
 			"description": "Explains avatar upload functionality",
-			"text": "Starting 1.9 we discontinued in-app-uploaded avatars due to the high costs associated to it. Simply Plural is a free app, with no advertisements, with our only revenue being from Patreon and other monetary supports, such as The Plural Association. Avatar urls are not affected. You can read more about it here: https://apparyllis.com/simply-plural-avatar-functionality/"
+			"text": "Starting 1.9 we discontinued in-app-uploaded avatars due to the high costs associated to it. Simply Plural is a free app, with no advertisements, with our only revenue being from Patreon and other monetary supports, such as The Plural Association. Avatar urls are not affected. Existing avatars will not be deleted, removed or made otherwise unavailable for anyone. You can read more about it here: https://apparyllis.com/simply-plural-avatar-functionality/"
 		},
 		{
 			"friendlyName": "Disconnecting social logins",
