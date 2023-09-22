@@ -396,6 +396,18 @@
 			"title": "Disconnecting social logins",
 			"description": "Disconnecting social logins (google, apple)",
 			"text": "If you are logging in with socials (google, apple), and you wish to convert your account to a normal password account, please request a password reset. This will send you a link to reset your password which will set the password for your account and unlink you from social logins. This means you will need to login with email and password from there on."
+		},
+		{
+			"friendlyName": "Simply Plus",
+			"category": "support",
+			"names": [
+				"sp",
+				"simplyplus",
+				"simply-plus"
+			],
+			"title": "Simply Plus",
+			"description": "Simply Plus",
+			"text": "Simply Plus is the upcoming subscription model for Simply Plural in order to monetarily support the app for the upkeep of the servers. Simply Plus is a cosmetics-only subscription, meaning no functional features will be behind the subscription but only cosmetic, visual enhancing, features will be part of the Subscription. No feature that is currently in the app will be behind subscription, only new certain cosmetic features will be locked behind the subscription. You can read more about it in the announcement here: https://apparyllis.com/avatar-functionality-reversed-decision/\nThere is no current timeline for Simply Plus, however when there's more information to share it will be announced"
 		}
 	]
 }
