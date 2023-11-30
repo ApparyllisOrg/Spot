@@ -1,4 +1,4 @@
-import { restClient } from "../bot";
+import { client } from "../bot";
 
 interface Message {
     names: string[];
@@ -12,15 +12,17 @@ interface Message {
 export const messages: Record<string, Message> = {};
 let avatarUrl = "";
 
-const load = async () => 
-{
+const load = async () => {
     const messagesList = require('../messages.json')["faq"];
     messagesList.forEach((msg: any) => {
         messages[msg["title"]] = msg
     })
 
-    const userInfo = await restClient.fetchMe();
-    avatarUrl = `https://cdn.discordapp.com/avatars/${userInfo.id}/${userInfo.avatar}.png`;
+    const userInfo = await client.user;
+
+    const avatar = userInfo?.avatarURL() ?? '';
+
+    avatarUrl = avatar;
     console.log(avatarUrl);
 }
 
@@ -32,14 +34,12 @@ export const getList = () => Object.keys(messages).map(msg => ({ name: messages[
 
 export const getEmbed = (name: string) => {
     let foundMsg: Message | undefined;
-    Object.keys(messages).forEach((msgKey) => 
-    {
+    Object.keys(messages).forEach((msgKey) => {
         if (foundMsg) return;
 
         const msg = messages[msgKey]
 
-        if (msg.names.includes(name))
-        {
+        if (msg.names.includes(name)) {
             foundMsg = msg;
             return;
         }
