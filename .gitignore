@@ -5,3 +5,4 @@ deploy.sh
 config.*json*
 !config.json.sample
 .env
+/tmp

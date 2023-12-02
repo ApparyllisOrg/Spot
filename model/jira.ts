@@ -13,18 +13,19 @@ export default async function search(version?: string): Promise<any[]> {
     }
 
     const issues: any[] = [];
-    let response: any | null = null;
+    let jsonResponse: any | null = null;
 
     do {
         // @ts-expect-error
         const httpParams = Object.keys(params).map(key => `${key}=${params[key]}`).join('&');
         const url = `${config.jira.baseUrl}/search?${httpParams}`;
-        // what even is this
-        response = JSON.parse((await new axios.Axios({}).get(url)).data);
 
-        issues.push(...response!.issues);
+        const serverResponse = await new axios.Axios({}).get(url);
+        jsonResponse = JSON.parse(serverResponse.data);
+
+        issues.push(...jsonResponse!.issues);
         params.startAt += 100;
-    } while (response!.issues.length > 99 && response!.total > 100);
+    } while (jsonResponse!.issues.length > 99 && jsonResponse!.total > 100);
 
     return issues;
 }
