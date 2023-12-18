@@ -12,7 +12,7 @@ interface Message {
 export const messages: Record<string, Message> = {};
 let avatarUrl = "";
 
-const load = async () => {
+export const loadMessages = async () => {
     const messagesList = require('../messages.json')["faq"];
     messagesList.forEach((msg: any) => {
         messages[msg["title"]] = msg
@@ -25,9 +25,6 @@ const load = async () => {
     avatarUrl = avatar;
     console.log(avatarUrl);
 }
-
-load();
-
 
 export const get = (name: string) => messages[name];
 export const getList = () => Object.keys(messages).map(msg => ({ name: messages[msg].names[0], value: messages[msg].description }));

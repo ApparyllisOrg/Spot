@@ -1,5 +1,6 @@
 import * as axios from 'axios';
 import config from '../config';
+import { getJiraToken } from '../utils/jira';
 
 export default async function search(version?: string): Promise<any[]> {
     const params = {
@@ -17,14 +18,19 @@ export default async function search(version?: string): Promise<any[]> {
 
     do {
         // @ts-expect-error
-        const httpParams = Object.keys(params).map(key => `${key}=${params[key]}`).join('&');
+        const httpParams = Object.keys(params).map((key: string) => `${key}=${params[key]}`).join('&');
         const url = `${config.jira.baseUrl}/search?${httpParams}`;
 
-        const serverResponse = await new axios.Axios({}).get(url);
-        jsonResponse = JSON.parse(serverResponse.data);
+        const serverResponse = await new axios.Axios({}).get(url, { headers: { "Authorization": getJiraToken() } }).catch((e) => console.error(e))
+        if (serverResponse) {
+            jsonResponse = JSON.parse(serverResponse.data);
+            issues.push(...jsonResponse!.issues);
+            params.startAt += 100;
+        }
+        else {
+            return []
+        }
 
-        issues.push(...jsonResponse!.issues);
-        params.startAt += 100;
     } while (jsonResponse!.issues.length > 99 && jsonResponse!.total > 100);
 
     return issues;
