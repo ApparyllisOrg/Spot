@@ -36,7 +36,8 @@ module.exports = {
 
         const descInput = new TextInputBuilder()
             .setCustomId('desc')
-            .setLabel("Description/More info (Platform, beta, release, etc.)")
+            .setLabel("Description/More info")
+            .setPlaceholder("Type in any additional information such as which platform.")
             .setRequired(false)
             .setMaxLength(1000)
             .setStyle(TextInputStyle.Paragraph);
