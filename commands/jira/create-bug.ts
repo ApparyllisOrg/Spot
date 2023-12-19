@@ -1,5 +1,6 @@
 import axios from "axios";
-import { ApplicationCommandType, CommandInteraction, ContextMenuCommandBuilder, ModalBuilder, ModalSubmitInteraction, StringSelectMenuBuilder, StringSelectMenuOptionBuilder, TextInputBuilder, TextInputStyle } from "discord.js";
+import { ApplicationCommandType, CommandInteraction, ContextMenuCommandBuilder, ModalBuilder, ModalSubmitInteraction, StringSelectMenuBuilder, StringSelectMenuOptionBuilder, TextBasedChannel, TextInputBuilder, TextInputStyle } from "discord.js";
+import { client } from "../../bot";
 import config from "../../config";
 import { frequencies, getJiraToken, severites } from "../../utils/jira";
 
@@ -35,7 +36,7 @@ module.exports = {
 
         const descInput = new TextInputBuilder()
             .setCustomId('desc')
-            .setLabel("Description/More info")
+            .setLabel("Description/More info (Platform, beta, release, etc.)")
             .setRequired(false)
             .setMaxLength(1000)
             .setStyle(TextInputStyle.Paragraph);
@@ -94,6 +95,7 @@ module.exports = {
         if (interaction.isMessageContextMenuCommand()) {
             const messageUrl = interaction.targetMessage.url
 
+
             const url = `${config.jira.baseUrl}/issue`;
             const issuePayload = {
                 fields: {
@@ -114,13 +116,14 @@ module.exports = {
                 }
             }
 
-            console.log(issuePayload);
-
-
             const serverResponse = await new axios.Axios({}).post(url, JSON.stringify(issuePayload), { headers: { "Authorization": getJiraToken(), "Content-Type": 'application/json' }, },).catch((e) => console.error(e))
             if (serverResponse && serverResponse.status == 201) {
                 const responseData = JSON.parse(serverResponse.data)
-                result.reply({ ephemeral: false, content: `A bug report has been created for your issue under issue-ID ${responseData.key}!`, target: interaction.targetMessage, options: { flags: "SuppressNotifications" } })
+
+                const channel = await client.channels.fetch(interaction.channelId) as TextBasedChannel
+                channel.send({ reply: { messageReference: interaction.targetMessage }, content: `A bug report has been created for your issue under issue-ID ${responseData.key}!`, options: { flags: 'SuppressNotifications' } })
+
+                result.reply({ ephemeral: true, content: 'Your submission succeeded.' })
             }
             else {
                 console.log(serverResponse)
