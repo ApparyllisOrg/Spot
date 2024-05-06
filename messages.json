@@ -18,6 +18,20 @@
 	},
 	"faq": [
 		{
+			"friendlyName"; "Slow connections",
+			"category": "support",
+			"names": [
+				"slow-connection",
+				"slow-loading",
+				"slowconnection",
+				"slowloading",
+				"loading"
+			],
+			"description": "Explains why parts of the app may load slowly",
+			"title": "Slow connections/loading times",
+			"text": "Sometimes, especially during busy times of day for the app, connecting to the servers to log in to the app, view your friends, or access other online features may be slow or impossible. Multiple factors, including your distance from the app's servers, or your own internet connection, may make it more difficult for your app to reach the servers, even if they are currently online. Please be patient, and try again later."
+			},
+		{
 			"friendlyName": "How to add friends",
 			"category": "guides",
 			"names": [
