@@ -18,7 +18,86 @@
 	},
 	"faq": [
 		{
-			"friendlyName"; "Slow connections",
+			"friendlyName": "General channel",
+			"category": "support",
+			"names": [
+				"general",
+				"general-channel",
+				"general-chat",
+				"generalchannel",
+				"generalchat",
+				"offtopic",
+				"off-topic"
+			],
+			"description": "Explains why there is no general channel.",
+			"title": "No general channel",
+			"text": "There is no general channel in this server. The moderation team does not have time to moderate a general or off-topic channel, nor is it relevant to the server itself. Please read the rules and follow the link to PluralHub there if you are looking for a server for socialization."
+		}
+	],
+		[
+			{
+				"friendlyName": "Sorting options",
+				"category": "rf",
+				"names": [
+					"sorting",
+					"sort",
+					"ordering"
+				],
+				"description": "Explains sorting options are planned",
+				"title": "Sorting members",
+				"text": "The option to sort members and custom fronts by various things, such as creation date or recent fronters has been suggested before. A feature to add ways to sort is planned, but not any specifics on how it would work."
+
+			}
+	],
+	[
+		{
+			"friendlyName": "Widgets",
+			"category": "rf",
+			"names": [
+				"widgets"
+			],
+			"description": "Explains widgets are planned.",
+			"title": "Widgets",
+			"text": "Widgets for the app have been suggested before. They are planned, but not a high priority."
+		}
+	],
+		[
+		{
+			"friendlyName": "PluralKit help",
+			"category": "support",
+			"names": [
+				"pluralkit-help",
+				"pluralkit-support",
+				"pk-help",
+				"pkhelp",
+				"pksupport",
+				"pk-support"
+			],
+			"description": "Redirects user to PK support",
+			"title": "PluralKit Support Questions",
+			"text": "SimplyPlural and PluralKit are not the same, and are not made by the same developers. Please redirect all PluralKit support questions to their support server instead: https://discord.gg/PczBt78"
+		}
+	]
+		[
+		{
+			"friendlyName": "ETA questions",
+			"category": "support",
+			"names": [
+				"eta",
+				"no-eta",
+				"new-features",
+				"next-update",
+				"newfeatures",
+				"nextupdate"
+			],
+			"description": "Explains why there is no ETA for upcoming updates and features.",
+			"title": "ETAs",
+			"text": "There are no estimated times or release dates for any upcoming features or updates. The devs are currently one system, and SimplyPlural is not their only project, so due to this they cannot guarantee any feature or update will release at a given time. However, patrons do get sneak peeks into upcoming updates!"
+		},
+	]
+	 [
+		{
+			"friendlyName": "Slow connections",
 			"category": "support",
 			"names": [
 				"slow-connection",
@@ -30,7 +109,7 @@
 			"description": "Explains why parts of the app may load slowly",
 			"title": "Slow connections/loading times",
 			"text": "Sometimes, especially during busy times of day for the app, connecting to the servers to log in to the app, view your friends, or access other online features may be slow or impossible. Multiple factors, including your distance from the app's servers, or your own internet connection, may make it more difficult for your app to reach the servers, even if they are currently online. Please be patient, and try again later."
-			},
+		},
 		{
 			"friendlyName": "How to add friends",
 			"category": "guides",
