@@ -513,7 +513,7 @@
 			"names": [
 				"mdlinks",
 				"links",
-				"markdownlinks",
+				"markdownlinks"
 			],
 			"description": "Explains how to use markdown links",
 			"title": "Markdown image links",
