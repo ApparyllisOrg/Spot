@@ -506,6 +506,18 @@
 			"title": "Simply Plus",
 			"description": "Simply Plus",
 			"text": "Simply Plus is the upcoming subscription model for Simply Plural in order to monetarily support the app for the upkeep of the servers. Simply Plus is a cosmetics-only subscription, meaning no functional features will be behind the subscription but only cosmetic, visual enhancing, features will be part of the Subscription. No feature that is currently in the app will be behind subscription, only new certain cosmetic features will be locked behind the subscription. You can read more about it in the announcement here: https://apparyllis.com/avatar-functionality-reversed-decision/\nThere is no current timeline for Simply Plus, however when there's more information to share it will be announced"
+		},
+		{
+			"friendlyName": "Markdown image links",
+			"category": "support",
+			"names": [
+				"mdlinks",
+				"links",
+				"markdownlinks",
+			],
+			"description": "Explains how to use markdown links",
+			"title": "Markdown image links",
+			"text": "To use links in your markdown fields with ![]() you need to use a service that allows hotlinking from external apps. Discord does not support hotlinking from outside the Discord app, using Discord links will cause your images to dissapear soon after. You can browse the internet for services that allow you to host images that can be hotlinked from externally."
 		}
 	]
 }
