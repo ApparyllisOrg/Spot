@@ -518,6 +518,18 @@
 			"description": "Explains how to use markdown links",
 			"title": "Markdown image links",
 			"text": "To use links in your markdown fields with ![]() you need to use a service that allows hotlinking from external apps. Discord does not support hotlinking from outside the Discord app, using Discord links will cause your images to dissapear soon after. You can browse the internet for services that allow you to host images that can be hotlinked from externally."
+		},
+		{
+			"friendlyName": "Optional settings",
+			"category": "support",
+			"names": [
+				"optional",
+				"optionalsettings",
+				"optionaloptions"
+			],
+			"description": "Explains why features dont always receive optional settings",
+			"title": "Optional settings",
+			"text": "Unfortunately as SP is run and coded by a single developer, so there isn't the resources nor time available to make everything as optional and customizable as people may wish. The developer has to prioritize hotfixes, bugs, and occasionally new features! So making most things optional is currently considered out of scope."
 		}
 	]
 }
