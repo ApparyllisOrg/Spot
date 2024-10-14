@@ -529,7 +529,7 @@
 			],
 			"description": "Explains why features dont always receive optional settings",
 			"title": "Optional settings",
-			"text": "Unfortunately as SP is run and coded by a single developer, so there isn't the resources nor time available to make everything as optional and customizable as people may wish. The developer has to prioritize hotfixes, bugs, and occasionally new features! So making most things optional is currently considered out of scope."
+			"text": "Because Simply Plural is created and maintained by a single developer, there isn't enough time and resources to make everything an optional setting. The developer has to prioritize bug fixing, and occasionally release new features, alongside maintaining the servers."
 		}
 	]
 }
